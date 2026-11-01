@@ -4,6 +4,18 @@ An Android home screen that learns how you use your phone and helps with it. The
 
 **[Get MobileClaw on Google Play](https://play.google.com/store/apps/details?id=com.la1ncher)** · Free, no ads · Android 11 or newer
 
+| Home & HUD Clock | AI Assistant & Agents | Second Brain & Hub | Automations |
+| :---: | :---: | :---: | :---: |
+| ![Home](screenshots/01_home_hud.jpg) | ![Assistant](screenshots/02_ai_assistant.jpg) | ![Hub](screenshots/03_assistant_hub.jpg) | ![Automations](screenshots/04_automations.jpg) |
+
+| Modes & Daily Brief | Smart Home & TV Remote | On-Device AI Models | Proactive & Privacy |
+| :---: | :---: | :---: | :---: |
+| ![Modes](screenshots/05_modes_brief.jpg) | ![Smart Home](screenshots/06_smart_home_remote.jpg) | ![On-Device AI](screenshots/07_on_device_ai.jpg) | ![Privacy](screenshots/08_proactive_privacy.jpg) |
+
+| E-Ink & PC Share | On-Phone vs. Cloud AI | Telegram Bridge | Drive Cockpit |
+| :---: | :---: | :---: | :---: |
+| ![Look & PC](screenshots/09_settings_look_pc.jpg) | ![AI Routing](screenshots/10_ai_routing.jpg) | ![Telegram Bridge](screenshots/11_telegram_bridge.jpg) | ![Drive Cockpit](screenshots/12_drive_cockpit.jpg) |
+
 ---
 
 ## What's in the app
