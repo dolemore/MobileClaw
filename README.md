@@ -4,17 +4,33 @@ An Android home screen that learns how you use your phone and helps with it. The
 
 **[Get MobileClaw on Google Play](https://play.google.com/store/apps/details?id=com.la1ncher)** · Free, no ads · Android 11 or newer
 
-| Home & HUD Clock | AI Assistant & Agents | Second Brain & Hub | Automations |
+| Home & HUD Clock | HUD Shortcut Petals | Petal App Picker | AI Assistant & Agents |
 | :---: | :---: | :---: | :---: |
-| ![Home](screenshots/01_home_hud.jpg) | ![Assistant](screenshots/02_ai_assistant.jpg) | ![Hub](screenshots/03_assistant_hub.jpg) | ![Automations](screenshots/04_automations.jpg) |
+| ![Home](screenshots/01_home_hud.jpg) | ![Petals](screenshots/02_hud_shortcuts.jpg) | ![Picker](screenshots/03_petal_picker.jpg) | ![Assistant](screenshots/04_ai_assistant.jpg) |
 
-| Modes & Daily Brief | Smart Home & TV Remote | On-Device AI Models | Proactive & Privacy |
+| Second Brain & Hub | Local AI Models (Gemma / Qwen / Llama) | Named Agent Skills | Automations & Templates |
 | :---: | :---: | :---: | :---: |
-| ![Modes](screenshots/05_modes_brief.jpg) | ![Smart Home](screenshots/06_smart_home_remote.jpg) | ![On-Device AI](screenshots/07_on_device_ai.jpg) | ![Privacy](screenshots/08_proactive_privacy.jpg) |
+| ![Hub](screenshots/05_assistant_hub.jpg) | ![Local AI](screenshots/06_on_device_ai_models.jpg) | ![Skills](screenshots/07_skills.jpg) | ![Automations](screenshots/08_automations.jpg) |
 
-| E-Ink & PC Share | On-Phone vs. Cloud AI | Telegram Bridge | Drive Cockpit |
+| What I Know About You | Modes & Morning Brief | Kid Mode & Robot Companion | Universal Remote & Smart Home |
 | :---: | :---: | :---: | :---: |
-| ![Look & PC](screenshots/09_settings_look_pc.jpg) | ![AI Routing](screenshots/10_ai_routing.jpg) | ![Telegram Bridge](screenshots/11_telegram_bridge.jpg) | ![Drive Cockpit](screenshots/12_drive_cockpit.jpg) |
+| ![Learning](screenshots/09_learning_status.jpg) | ![Modes](screenshots/10_modes_brief.jpg) | ![Kid Mode](screenshots/11_kid_robot_mode.jpg) | ![Smart Home](screenshots/12_smart_home_remote.jpg) |
+
+| Wi-Fi Vacuum Discovery | TV Remote (Wi-Fi & Bluetooth) | Telegram Bridge | Proactive AI, Privacy & Local API |
+| :---: | :---: | :---: | :---: |
+| ![Vacuum](screenshots/13_smart_home_discovered.jpg) | ![TV Remote](screenshots/14_tv_remote_wifi_bt.jpg) | ![Telegram](screenshots/15_telegram_bridge.jpg) | ![Privacy](screenshots/16_proactive_privacy_api.jpg) |
+
+| E-Ink Mode, PC Share & Lock Screen | On-Phone vs. Cloud AI Slider | Quick Settings Tiles | Spirit Level Tool |
+| :---: | :---: | :---: | :---: |
+| ![E-Ink](screenshots/17_eink_pc_lockscreen.jpg) | ![AI Slider](screenshots/18_ai_routing_language.jpg) | ![Quick Settings](screenshots/19_quick_settings_tiles.jpg) | ![Level](screenshots/20_spirit_level.jpg) |
+
+| Light Meter (Lux) Tool | App Drawer & Predictions | Smart App Categories | Weather Alert & Habit Prompt |
+| :---: | :---: | :---: | :---: |
+| ![Light Meter](screenshots/21_light_meter.jpg) | ![Drawer List](screenshots/22_app_drawer_list.jpg) | ![Categories](screenshots/23_app_drawer_categories.jpg) | ![Weather & Habits](screenshots/24_home_weather_habits.jpg) |
+
+| Daytime Home Screen | Drive Cockpit (EN) | Drive Cockpit (TR) |
+| :---: | :---: | :---: |
+| ![Daytime Home](screenshots/25_home_daytime.jpg) | ![Drive Cockpit EN](screenshots/26_drive_cockpit_en.jpg) | ![Drive Cockpit TR](screenshots/27_drive_cockpit_tr.jpg) |
 
 ---
 
