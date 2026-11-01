@@ -4,18 +4,6 @@ An Android home screen that learns how you use your phone and helps with it. The
 
 **[Get MobileClaw on Google Play](https://play.google.com/store/apps/details?id=com.la1ncher)** · Free, no ads · Android 11 or newer
 
-| Home & HUD Clock | Shortcut Petals | AI Agent & Roles | Automations |
-| :---: | :---: | :---: | :---: |
-| ![Home](screenshots/01_home_hud.jpg) | ![Shortcuts](screenshots/02_hud_shortcuts.jpg) | ![Agent](screenshots/03_ai_agent_chat.jpg) | ![Automations](screenshots/04_automations.jpg) |
-
-| Skills | Modes & Brief | Smart Home & TV Remote | Drive Cockpit |
-| :---: | :---: | :---: | :---: |
-| ![Skills](screenshots/05_skills.jpg) | ![Modes](screenshots/06_modes.jpg) | ![Smart Home](screenshots/08_smart_home_remote.jpg) | ![Cockpit](screenshots/09_drive_cockpit.jpg) |
-
-| On-Device AI Models | Animated Faces | Calm Senior Home | Quick Settings Tiles |
-| :---: | :---: | :---: | :---: |
-| ![Local AI](screenshots/10_local_ai_models.jpg) | ![Faces](screenshots/07_family_faces.jpg) | ![Senior Mode](screenshots/11_senior_mode.jpg) | ![Quick Settings](screenshots/12_quick_settings.jpg) |
-
 ---
 
 ## What's in the app
