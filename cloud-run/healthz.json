@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "service": "mobileclaw-cloudrun-good",
+  "theme": "Product Hunt x Google Cloud Run — Build for Good",
+  "domain": "getmobileclaw.com",
+  "play_store": "https://play.google.com/store/apps/details?id=com.la1ncher",
+  "mcp_tools": [
+    "socratic_study_hint",
+    "elder_care_checkin",
+    "recent_earthquakes"
+  ]
+}

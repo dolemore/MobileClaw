@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MobileClaw Blog — Open-Source &amp; AI GitHub Radar</title>
+  <meta name="description" content="Curated guide to the best open-source GitHub repositories for AI agents, local LLMs, MCP servers, reverse engineering, and privacy tools — by MobileClaw." />
+  <style>
+    :root {
+      --bg: #0b0d12;
+      --surface: #141821;
+      --surface-high: #1c2230;
+      --border: rgba(255,255,255,0.09);
+      --text: #f3f5f8;
+      --muted: #9ba3b5;
+      --accent: #7c5cff;
+      --accent2: #2dd4bf;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+      background: radial-gradient(circle at 50% 0%, #1a1836 0%, var(--bg) 45%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+    header {
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px;
+      padding: 20px 0; border-bottom: 1px solid var(--border);
+    }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.2rem; }
+    .nav { display: flex; gap: 16px; align-items: center; font-size: 0.92rem; flex-wrap: wrap; }
+    .pill-btn {
+      padding: 6px 14px; border-radius: 999px; cursor: pointer;
+      background: var(--surface-high); border: 1px solid var(--border);
+      color: var(--text); font-size: 0.85rem; font-weight: 600;
+    }
+    .pill-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .hero { padding: 48px 0 28px; }
+    .hero h1 { font-size: clamp(1.8rem, 4.2vw, 2.8rem); font-weight: 850; letter-spacing: -0.03em; margin: 12px 0; }
+    .hero p { color: var(--muted); max-width: 720px; font-size: 1.05rem; }
+    .controls {
+      display: flex; flex-direction: column; gap: 14px; margin: 24px 0 28px;
+      background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 18px;
+    }
+    .search-row { display: flex; gap: 10px; flex-wrap: wrap; }
+    .search-input {
+      flex: 1; min-width: 220px; padding: 12px 16px; border-radius: 12px;
+      background: #0d1017; border: 1px solid var(--border); color: var(--text); font-size: 0.95rem;
+    }
+    .search-input:focus { outline: none; border-color: var(--accent); }
+    .filter-row { display: flex; gap: 8px; flex-wrap: wrap; }
+    .stats { color: var(--muted); font-size: 0.88rem; margin-bottom: 14px; }
+    .grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 18px; margin-bottom: 56px;
+    }
+    .card {
+      background: rgba(20,24,33,0.9); border: 1px solid var(--border);
+      border-radius: 18px; padding: 22px; display: flex; flex-direction: column; gap: 12px;
+      transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+    .card:hover { border-color: rgba(124,92,255,0.5); transform: translateY(-2px); }
+    .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+    .tier {
+      font-size: 0.72rem; font-weight: 800; padding: 3px 10px; border-radius: 999px; letter-spacing: 0.04em;
+    }
+    .tier-Featured { background: rgba(124,92,255,0.22); color: #c4b5fd; border: 1px solid rgba(124,92,255,0.5); }
+    .tier-S { background: rgba(245,158,11,0.2); color: #fcd34d; border: 1px solid rgba(245,158,11,0.5); }
+    .tier-A { background: rgba(239,68,68,0.2); color: #fca5a5; border: 1px solid rgba(239,68,68,0.5); }
+    .tier-B { background: rgba(45,212,191,0.18); color: #5eead4; border: 1px solid rgba(45,212,191,0.45); }
+    .tier-C { background: rgba(59,130,246,0.18); color: #93c5fd; border: 1px solid rgba(59,130,246,0.45); }
+    .tier-D { background: rgba(148,163,184,0.18); color: #cbd5e1; border: 1px solid rgba(148,163,184,0.35); }
+    .stars { font-size: 0.82rem; font-weight: 700; color: #fbbf24; white-space: nowrap; }
+    .card h3 { font-size: 1.15rem; font-weight: 750; }
+    .repo-slug { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.8rem; color: var(--accent2); }
+    .desc { color: #d5dae5; font-size: 0.93rem; }
+    .usecase {
+      background: #0d1017; border-left: 3px solid var(--accent);
+      padding: 10px 12px; border-radius: 8px; font-size: 0.86rem; color: var(--muted);
+    }
+    .tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: auto; padding-top: 4px; }
+    .tag {
+      font-size: 0.75rem; padding: 3px 9px; border-radius: 6px;
+      background: var(--surface-high); color: var(--muted);
+    }
+    .card-footer {
+      display: flex; justify-content: space-between; align-items: center;
+      padding-top: 10px; border-top: 1px solid var(--border); font-size: 0.86rem;
+    }
+    .gh-link { color: #a5b4fc; font-weight: 700; }
+    .cta-box {
+      background: linear-gradient(135deg, rgba(124,92,255,0.18), rgba(45,212,191,0.12));
+      border: 1px solid rgba(124,92,255,0.35); border-radius: 22px;
+      padding: 28px; margin-bottom: 48px; display: flex; justify-content: space-between;
+      align-items: center; flex-wrap: wrap; gap: 18px;
+    }
+    .cta-btn {
+      padding: 12px 22px; border-radius: 12px; font-weight: 700;
+      background: var(--accent); color: #fff;
+    }
+    footer {
+      border-top: 1px solid var(--border); padding: 26px 0 42px;
+      color: var(--muted); font-size: 0.88rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="brand" href="/">🦀 MobileClaw <span style="color:var(--accent2);font-weight:600;font-size:0.9rem;">/ Blog</span></a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/blog" style="color:var(--accent2);font-weight:700;">Open-Source Radar</a>
+        <a href="/privacy">Privacy</a>
+        <button id="langBtn" class="pill-btn">🌐 TR / EN</button>
+        <a class="pill-btn active" href="https://play.google.com/store/apps/details?id=com.la1ncher">Google Play ↗</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1 id="heroTitle">Açık Kaynak &amp; Yapay Zekâ GitHub Rehberi</h1>
+      <p id="heroSub">Yapay zekâ ajanları, yerel LLM'ler, MCP sunucuları, tersine mühendislik ve güvenlik araçları: her deponun ne işe yaradığını ve hangi senaryoda kullanıldığını tek sayfada derledik.</p>
+    </section>
+
+    <section class="controls">
+      <div class="search-row">
+        <input id="search" class="search-input" type="search" placeholder="Repo, kategori veya etiket ara (örn. MCP, Rust, LocalAI, OSINT)..." />
+      </div>
+      <div class="filter-row" id="tierFilters"></div>
+      <div class="filter-row" id="catFilters"></div>
+    </section>
+
+    <div class="stats" id="stats"></div>
+    <section class="grid" id="grid"></section>
+
+    <section class="cta-box">
+      <div>
+        <h2 id="ctaTitle" style="font-size:1.3rem;margin-bottom:6px;">Bu araçların mantığını cebine taşı: MobileClaw</h2>
+        <p id="ctaSub" style="color:var(--muted);font-size:0.95rem;">Android telefonunda internetsiz çalışan yerel LLM (Gemma, Qwen, Llama), MCP istemcisi, sürüş kokpiti ve akıllı galeri düzenleyici.</p>
+      </div>
+      <a class="cta-btn" href="https://play.google.com/store/apps/details?id=com.la1ncher" id="ctaBtn">Google Play'de İndir ▶</a>
+    </section>
+
+    <footer>
+      <div>© 2026 MobileClaw (<a href="/" style="text-decoration:underline;">getmobileclaw.com</a>)</div>
+      <div style="display:flex;gap:18px;">
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/blog/repos.json">JSON Feed</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    let lang = 'tr';
+    let repos = [];
+    let activeTier = 'ALL';
+    let activeCat = 'ALL';
+
+    const copy = {
+      tr: {
+        heroTitle: 'Açık Kaynak & Yapay Zekâ GitHub Rehberi',
+        heroSub: 'Yapay zekâ ajanları, yerel LLM\'ler, MCP sunucuları, tersine mühendislik ve güvenlik araçları: her deponun ne işe yaradığını ve hangi senaryoda kullanıldığını tek sayfada derledik.',
+        placeholder: 'Repo, kategori veya etiket ara (örn. MCP, Rust, LocalAI, OSINT)...',
+        useLabel: 'Ne zaman kullanılır: ',
+        openGh: 'GitHub\'da İncele ↗',
+        showing: (n, t) => `${t} depodan ${n} tanesi gösteriliyor`,
+        allTiers: 'Tüm Seviyeler',
+        allCats: 'Tüm Kategoriler',
+        ctaTitle: 'Bu araçların mantığını cebine taşı: MobileClaw',
+        ctaSub: 'Android telefonunda internetsiz çalışan yerel LLM (Gemma, Qwen, Llama), MCP istemcisi, sürüş kokpiti ve akıllı galeri düzenleyici.',
+        ctaBtn: 'Google Play\'de İndir ▶'
+      },
+      en: {
+        heroTitle: 'Open-Source & AI GitHub Radar',
+        heroSub: 'A curated blog directory of AI agents, local LLMs, MCP servers, reverse-engineering engines, and privacy/security repositories—with plain explanations of what each one does.',
+        placeholder: 'Search repo, category, or tag (e.g. MCP, Rust, LocalAI, OSINT)...',
+        useLabel: 'When to use it: ',
+        openGh: 'View on GitHub ↗',
+        showing: (n, t) => `Showing ${n} of ${t} curated repositories`,
+        allTiers: 'All Tiers',
+        allCats: 'All Categories',
+        ctaTitle: 'Bring local AI & MCP to your pocket: MobileClaw',
+        ctaSub: 'Offline on-device LLM launcher (Gemma, Qwen, Llama), MCP client, driving cockpit with dashcam, and Cowork gallery organizer for Android.',
+        ctaBtn: 'Download on Google Play ▶'
+      }
+    };
+
+    function renderFilters() {
+      const tiers = ['ALL', 'Featured', 'S', 'A', 'B', 'C', 'D'];
+      const cats = ['ALL', ...new Set(repos.map(r => r.category))];
+      document.getElementById('tierFilters').innerHTML = tiers.map(t => {
+        const label = t === 'ALL' ? copy[lang].allTiers : (t === 'Featured' ? '★ Featured' : `${t} Tier`);
+        return `<button class="pill-btn ${activeTier === t ? 'active' : ''}" onclick="setTier('${t}')">${label}</button>`;
+      }).join('');
+      document.getElementById('catFilters').innerHTML = cats.map(c => {
+        const label = c === 'ALL' ? copy[lang].allCats : c;
+        return `<button class="pill-btn ${activeCat === c ? 'active' : ''}" onclick="setCat('${c}')">${label}</button>`;
+      }).join('');
+    }
+
+    function setTier(t) { activeTier = t; render(); }
+    function setCat(c) { activeCat = c; render(); }
+
+    function render() {
+      const q = document.getElementById('search').value.trim().toLowerCase();
+      const c = copy[lang];
+      document.getElementById('heroTitle').textContent = c.heroTitle;
+      document.getElementById('heroSub').textContent = c.heroSub;
+      document.getElementById('search').placeholder = c.placeholder;
+      document.getElementById('ctaTitle').textContent = c.ctaTitle;
+      document.getElementById('ctaSub').textContent = c.ctaSub;
+      document.getElementById('ctaBtn').textContent = c.ctaBtn;
+      document.getElementById('langBtn').textContent = lang === 'tr' ? '🌐 Switch to EN' : '🌐 Türkçe\'ye Geç';
+      renderFilters();
+
+      const filtered = repos.filter(r => {
+        if (activeTier !== 'ALL' && r.tier !== activeTier) return false;
+        if (activeCat !== 'ALL' && r.category !== activeCat) return false;
+        if (!q) return true;
+        const hay = `${r.name} ${r.repo} ${r.category} ${r.tags.join(' ')} ${r.summary_tr} ${r.summary_en} ${r.use_case_tr} ${r.use_case_en}`.toLowerCase();
+        return hay.includes(q);
+      });
+
+      document.getElementById('stats').textContent = c.showing(filtered.length, repos.length);
+      document.getElementById('grid').innerHTML = filtered.map(r => `
+        <article class="card">
+          <div class="card-top">
+            <span class="tier tier-${r.tier}">${r.tier === 'Featured' ? '★ FEATURED' : r.tier + ' TIER'}</span>
+            <span class="stars">⭐ ${r.stars}</span>
+          </div>
+          <div>
+            <h3>${r.name}</h3>
+            <div class="repo-slug">${r.repo}</div>
+          </div>
+          <p class="desc">${lang === 'tr' ? r.summary_tr : r.summary_en}</p>
+          <div class="usecase"><strong>${c.useLabel}</strong>${lang === 'tr' ? r.use_case_tr : r.use_case_en}</div>
+          <div class="tags">${r.tags.map(t => `<span class="tag">#${t}</span>`).join('')}</div>
+          <div class="card-footer">
+            <span style="color:var(--muted);">${r.category}</span>
+            <a class="gh-link" href="${r.url}" target="_blank" rel="noopener">${c.openGh}</a>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    document.getElementById('langBtn').addEventListener('click', () => {
+      lang = lang === 'tr' ? 'en' : 'tr';
+      render();
+    });
+    document.getElementById('search').addEventListener('input', render);
+
+    fetch('/blog/repos.json')
+      .then(r => r.json())
+      .then(data => { repos = data; render(); })
+      .catch(() => { document.getElementById('stats').textContent = 'Could not load repos.json'; });
+  </script>
+</body>
+</html>

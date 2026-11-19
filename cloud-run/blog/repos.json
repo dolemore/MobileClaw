@@ -1,0 +1,1140 @@
+[
+  {
+    "id": "instagram-x-clean-your-saved-posts",
+    "name": "Clean Your Saved Posts (Instagram & X)",
+    "repo": "dolemore/instagram-x-clean-your-saved-posts",
+    "url": "https://github.com/dolemore/instagram-x-clean-your-saved-posts",
+    "stars": "By MobileClaw",
+    "tier": "Featured",
+    "category": "Media & Scraping",
+    "tags": [
+      "Instagram",
+      "X",
+      "Bookmarks",
+      "Playwright",
+      "Backup"
+    ],
+    "summary_tr": "Instagram kaydedilen gönderilerini ve X (Twitter) yer işaretlerini tüm medya/metinleriyle bilgisayarına indirip yedekleyen, ardından hesabından tek komutla temizleyen Playwright tabanlı açık kaynak araç.",
+    "summary_en": "Playwright-based open-source tool that downloads your Instagram saved posts and X (Twitter) bookmarks with media and captions to your PC, then cleans them from your account in 2 commands.",
+    "use_case_tr": "Biriken yüzlerce Instagram kaydını ve X yer işaretini CSV + medya arşivi olarak bilgisayara çekip düzenlemek ve hesabı sıfırlamak için kullanılır (bu blogdaki X repo arşivi de bununla çıkarıldı).",
+    "use_case_en": "Exports hundreds of saved Instagram posts and X bookmarks into a local CSV + media archive and clears your feed."
+  },
+  {
+    "id": "chrome-devtools-mcp",
+    "name": "Chrome DevTools MCP",
+    "repo": "ChromeDevTools/chrome-devtools-mcp",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "stars": "57.6k",
+    "tier": "Featured",
+    "category": "DevTools & MCP",
+    "tags": [
+      "MCP",
+      "Chrome",
+      "Puppeteer",
+      "Debugging"
+    ],
+    "summary_tr": "Google'ın yapay zekâ kodlama ajanlarına canlı Chrome tarayıcısını kontrol etme, ağ/konsol kayıtlarını inceleme ve performans izi (CrUX) alma yeteneği veren resmi MCP sunucusu.",
+    "summary_en": "Google's official MCP server giving AI coding agents live Chrome DevTools inspection, performance tracing (CrUX), network/console debugging, and Puppeteer automation.",
+    "use_case_tr": "Ajanların web sayfalarını sadece koddan tahmin etmek yerine gerçek tarayıcıda açıp ekran görüntüsü, bellek sızıntısı ve LCP performansını canlı doğrulaması için kullanılır.",
+    "use_case_en": "Lets coding agents inspect real rendered pages, debug memory leaks, check accessibility, and verify UI changes directly in Chrome."
+  },
+  {
+    "id": "openmausbot",
+    "name": "OpenMausBot",
+    "repo": "milind-soni/OpenMausBot",
+    "url": "https://github.com/milind-soni/OpenMausBot",
+    "stars": "25.1k",
+    "tier": "Featured",
+    "category": "AI Agents",
+    "tags": [
+      "Multi-Agent",
+      "Local-First",
+      "VM",
+      "Voice"
+    ],
+    "summary_tr": "Grok Bot, OpenAI dots ve Manus'a açık kaynaklı ve yerel öncelikli (local-first) alternatif. Yerel Claude, Codex ve Grok CLI'larını sanal makine, sesli mod ve webhook rutinleriyle tek arayüzde birleştirir.",
+    "summary_en": "Open-source, local-first alternative to Grok Bot and Manus. Unifies local Claude, Codex, and Grok CLIs with VM desktop control, voice mode, Composio integrations, and scheduled webhooks.",
+    "use_case_tr": "Bulut proxy'sine veri göndermeden kendi bilgisayarında veya bulut Linux masaüstünde zamanlanmış otonom ajan rutinleri çalıştırmak isteyen geliştiriciler için.",
+    "use_case_en": "Ideal for running scheduled multi-agent routines with inline Allow/Deny permission control on your own machine or an isolated Linux VM."
+  },
+  {
+    "id": "craft-anything",
+    "name": "Craft Anything",
+    "repo": "storytold/craft-anything",
+    "url": "https://github.com/storytold/craft-anything",
+    "stars": "36.4k",
+    "tier": "Featured",
+    "category": "Reverse Eng & Creative",
+    "tags": [
+      "Rust",
+      "Clean Room",
+      "Reverse Engineering",
+      "AI"
+    ],
+    "summary_tr": "Saf Rust ile yazılmış 320 araçlık yazılım çözümleme motoru. Web sitelerini, masaüstü/mobil uygulamaları veya oyunları Study → Build → Check → Ready akışıyla analiz edip yeniden inşa eder.",
+    "summary_en": "Pure-Rust 320-tool software analysis engine that studies websites, desktop/mobile apps, or games in Clean Room or Deep mode and rebuilds them via AI coding agents.",
+    "use_case_tr": "Bir yazılımın nasıl çalıştığını anlamak ve Clean Room (sadece dış davranıştan) veya Deep (binary/JS analizi) modda kendi açık kaynak alternatifini üretmek için kullanılır.",
+    "use_case_en": "Used to understand how complex software works and recreate open-source alternatives like PhotoCraft, VectorCraft, and CADCraft."
+  },
+  {
+    "id": "unslop",
+    "name": "unslop",
+    "repo": "theclaymethod/unslop",
+    "url": "https://github.com/theclaymethod/unslop",
+    "stars": "1.2k",
+    "tier": "Featured",
+    "category": "AI Agents",
+    "tags": [
+      "Writing",
+      "Agent Skill",
+      "De-AI"
+    ],
+    "summary_tr": "Yapay zekâ tarafından yazılmış metinlerdeki yapay kalıpları ('AI tells') tespit edip yazarın kendi ses tonunu koruyarak metni doğallaştıran ajan becerisi (/unslop teach, cleanup, rewrite, mimic).",
+    "summary_en": "An agent skill and Python scanner suite that detects AI writing clichés ('AI tells') and refines drafts while preserving the author's authentic voice.",
+    "use_case_tr": "Blog yazıları, lansman metinleri ve dokümanlardaki robotik LLM üslubunu temizlemek için kullanılır.",
+    "use_case_en": "Cleans up generic LLM phrasing in blog posts, release notes, and documentation."
+  },
+  {
+    "id": "camofox-browser",
+    "name": "Camofox Browser",
+    "repo": "jo-inc/camofox-browser",
+    "url": "https://github.com/jo-inc/camofox-browser",
+    "stars": "Trending",
+    "tier": "Featured",
+    "category": "DevTools & MCP",
+    "tags": [
+      "Browser",
+      "Stealth",
+      "Automation"
+    ],
+    "summary_tr": "Bot korumalı web sitelerinde tespit edilmeden otomasyon ve veri toplama yapabilmek için tasarlanmış gizli (stealth) tarayıcı sunucusu.",
+    "summary_en": "Stealth browser server built for automated browsing and testing on bot-protected web pages.",
+    "use_case_tr": "Standart headless tarayıcıların engellendiği otomasyon ve araştırma akışlarında tarayıcı arka ucu olarak kullanılır.",
+    "use_case_en": "Acts as a stealth browser backend for web research and automation workflows."
+  },
+  {
+    "id": "google-colab-cli",
+    "name": "Google Colab CLI",
+    "repo": "googlecolab/google-colab-cli",
+    "url": "https://github.com/googlecolab/google-colab-cli",
+    "stars": "Official",
+    "tier": "Featured",
+    "category": "DevTools & MCP",
+    "tags": [
+      "Google Colab",
+      "CLI",
+      "GPU",
+      "ML"
+    ],
+    "summary_tr": "Google Colab ortamlarıyla doğrudan terminalden ve komut satırı ajanları üzerinden etkileşim kurmayı sağlayan resmi CLI araç seti.",
+    "summary_en": "Official command-line toolkit for interacting with Google Colab notebooks and GPU runtimes directly from the terminal.",
+    "use_case_tr": "Yerel makinede GPU olmadığında terminalden veya kodlama ajanından Colab üzerinde deney ve model çalıştırmak için kullanılır.",
+    "use_case_en": "Enables terminal-native workflows and coding agents to run experiments on Google Colab runtimes."
+  },
+  {
+    "id": "photocraft",
+    "name": "PhotoCraft",
+    "repo": "storytold/photocraft",
+    "url": "https://github.com/storytold/photocraft",
+    "stars": "Craft Suite",
+    "tier": "Featured",
+    "category": "Reverse Eng & Creative",
+    "tags": [
+      "Image Editor",
+      "PSD",
+      "Layers",
+      "Open Source"
+    ],
+    "summary_tr": "Katmanlar, maskeler ve PSD dosya desteği sunan açık kaynaklı görsel düzenleyici (Craft App Suite ailesinin bir parçası).",
+    "summary_en": "Open-source image editor featuring layers, masks, and native PSD support, built as part of the Craft App Suite.",
+    "use_case_tr": "Ücretli abonelik gerektiren fotoğraf düzenleyicilere hafif ve açık kaynaklı alternatif olarak kullanılır.",
+    "use_case_en": "A lightweight open-source alternative to subscription photo editors with PSD compatibility."
+  },
+  {
+    "id": "heretic",
+    "name": "Heretic",
+    "repo": "p-e-w/heretic",
+    "url": "https://github.com/p-e-w/heretic",
+    "stars": "35.8k",
+    "tier": "S",
+    "category": "Local LLM",
+    "tags": [
+      "LLM",
+      "Uncensored",
+      "Research"
+    ],
+    "summary_tr": "Açık kaynak büyük dil modellerindeki (LLM) aşırı katı reddetme katmanlarını azaltmaya odaklanan deneysel model düzenleme aracı.",
+    "summary_en": "Experimental tool for reducing overly restrictive refusal behavior in open-weight Large Language Models.",
+    "use_case_tr": "Güvenlik araştırmaları ve yerel ortamda yanlış pozitif reddetmeleri azaltmak için incelenir.",
+    "use_case_en": "Studied for alignment research and reducing false-positive refusals in local open-weight models."
+  },
+  {
+    "id": "openinterpreter",
+    "name": "OpenInterpreter",
+    "repo": "openinterpreter/openinterpreter",
+    "url": "https://github.com/openinterpreter/openinterpreter",
+    "stars": "68.6k",
+    "tier": "S",
+    "category": "AI Agents",
+    "tags": [
+      "Agent",
+      "Automation",
+      "Code Execution"
+    ],
+    "summary_tr": "Bilgisayarında doğal dille kod çalıştırabilen, web'de gezinebilen, dosya işleyebilen ve sistemi kontrol edebilen öncü açık kaynak yapay zekâ ajanı.",
+    "summary_en": "Pioneering open-source AI agent that executes code locally, browses the web, processes files, and controls your computer via natural language.",
+    "use_case_tr": "Doğal dil komutlarını anında Python/Shell scriptlerine çevirip veri analizi, video kesme ve dosya düzenleme gibi işleri otomatikleştirir.",
+    "use_case_en": "Turns natural-language requests into live local Python/shell execution for data analysis, media editing, and automation."
+  },
+  {
+    "id": "facefusion",
+    "name": "FaceFusion",
+    "repo": "facefusion/facefusion",
+    "url": "https://github.com/facefusion/facefusion",
+    "stars": "30.3k",
+    "tier": "S",
+    "category": "Reverse Eng & Creative",
+    "tags": [
+      "Video",
+      "AI",
+      "Face Swap"
+    ],
+    "summary_tr": "Yüksek kaliteli yüz değiştirme (face swap) ve video iyileştirme/manipülasyon yetenekleri sunan kapsamlı yapay zekâ araç kiti.",
+    "summary_en": "High-performance open-source face manipulation, restoration, and video enhancement toolkit.",
+    "use_case_tr": "Görsel efekt (VFX), video restorasyonu ve medya yapım iş akışlarında kullanılır.",
+    "use_case_en": "Used in VFX pipelines, video restoration, and creative media production."
+  },
+  {
+    "id": "ruview",
+    "name": "RuView",
+    "repo": "ruvnet/RuView",
+    "url": "https://github.com/ruvnet/RuView",
+    "stars": "98.6k",
+    "tier": "A",
+    "category": "Security & OSINT",
+    "tags": [
+      "Wi-Fi",
+      "Sensing",
+      "Research"
+    ],
+    "summary_tr": "Kamera kullanmadan yalnızca Wi-Fi sinyalleri üzerinden insan varlığı takibi ve pozisyon rekonstrüksiyonu yapabilen deneysel araştırma projesi.",
+    "summary_en": "Experimental RF sensing project demonstrating camera-free human presence detection and pose reconstruction using Wi-Fi signals.",
+    "use_case_tr": "Kamera gizliliği gerektiren yaşlı bakım, düşme tespiti ve kablosuz algılama araştırmalarında dikkat çekiyor.",
+    "use_case_en": "Explored in privacy-preserving ambient sensing, elder fall-detection research, and Wi-Fi CSI analysis."
+  },
+  {
+    "id": "spiderfoot",
+    "name": "SpiderFoot",
+    "repo": "smicallef/spiderfoot",
+    "url": "https://github.com/smicallef/spiderfoot",
+    "stars": "23.6k",
+    "tier": "A",
+    "category": "Security & OSINT",
+    "tags": [
+      "OSINT",
+      "Recon",
+      "Threat Intel"
+    ],
+    "summary_tr": "200'den fazla veri kaynağını tarayarak otomatik açık kaynak istihbaratı (OSINT) ve saldırı yüzeyi analizi çıkaran güvenlik aracı.",
+    "summary_en": "Automated Open Source Intelligence (OSINT) and threat intelligence platform integrating 200+ data sources.",
+    "use_case_tr": "Şirketlerin veya geliştiricilerin kendi alan adları ve sunucularındaki dışa açık bilgi sızıntılarını denetlemesi için kullanılır.",
+    "use_case_en": "Used by security teams to audit external attack surfaces and detect exposed assets."
+  },
+  {
+    "id": "sherlock",
+    "name": "Sherlock",
+    "repo": "sherlock-project/sherlock",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "stars": "57.9k",
+    "tier": "A",
+    "category": "Security & OSINT",
+    "tags": [
+      "OSINT",
+      "Username",
+      "Investigation"
+    ],
+    "summary_tr": "Tek bir kullanıcı adını yüzlerce sosyal medya ve web platformunda saniyeler içinde sorgulayan açık kaynak OSINT aracı.",
+    "summary_en": "Fast open-source OSINT utility that hunts down a username across hundreds of social networks and websites.",
+    "use_case_tr": "Yeni bir marka/uygulama adı seçerken kullanıcı adı müsaitliğini kontrol etmek ve dijital ayak izi denetimi yapmak için kullanılır.",
+    "use_case_en": "Great for checking brand handle availability across platforms or auditing your own digital footprint."
+  },
+  {
+    "id": "scrapy",
+    "name": "Scrapy",
+    "repo": "scrapy/scrapy",
+    "url": "https://github.com/scrapy/scrapy",
+    "stars": "64.9k",
+    "tier": "B",
+    "category": "Media & Scraping",
+    "tags": [
+      "Crawling",
+      "Python",
+      "Data"
+    ],
+    "summary_tr": "Python ile büyük ölçekli, hızlı ve asenkron web tarama (crawling) ile yapılandırılmış veri çıkarma çatkısı.",
+    "summary_en": "Fast, high-level asynchronous Python web crawling and structured data extraction framework.",
+    "use_case_tr": "Fiyat takibi, katalog indeksleme ve yapay zekâ veri seti toplama hatları kurmak için endüstri standardıdır.",
+    "use_case_en": "Industry standard for building scalable crawlers, catalog indexers, and dataset pipelines."
+  },
+  {
+    "id": "localai",
+    "name": "LocalAI",
+    "repo": "localai/localai",
+    "url": "https://github.com/localai/localai",
+    "stars": "49.6k",
+    "tier": "B",
+    "category": "Local LLM",
+    "tags": [
+      "LLM",
+      "OpenAI-Compat",
+      "Privacy"
+    ],
+    "summary_tr": "Kendi bilgisayarında veya yerel ağ sunucunda OpenAI uyumlu API ile tamamen çevrimdışı LLM, ses ve görsel modelleri çalıştıran açık kaynak sunucu.",
+    "summary_en": "Drop-in, self-hosted OpenAI-compatible REST API for running LLMs, TTS, and image generation locally on consumer hardware.",
+    "use_case_tr": "MobileClaw'daki 'Özel Sunucu (OpenAI Uyumlu)' ayarına doğrudan bağlanarak ev ağındaki bilgisayardan telefona ücretsiz ve gizli AI gücü verebilir.",
+    "use_case_en": "Connects directly to MobileClaw's Custom OpenAI-Compatible Server setting to power phones from a home PC with zero cloud cost."
+  },
+  {
+    "id": "yt-dlp",
+    "name": "yt-dlp",
+    "repo": "yt-dlp/yt-dlp",
+    "url": "https://github.com/yt-dlp/yt-dlp",
+    "stars": "118k",
+    "tier": "B",
+    "category": "Media & Scraping",
+    "tags": [
+      "Video",
+      "Audio",
+      "CLI",
+      "Downloader"
+    ],
+    "summary_tr": "YouTube başta olmak üzere binlerce siteden video, ses ve altyazı indirebilen en güçlü komut satırı medya aracı.",
+    "summary_en": "Feature-rich command-line audio/video downloader supporting thousands of websites with subtitle and format control.",
+    "use_case_tr": "Eğitim videolarını çevrimdışı arşivlemek, podcast sesi ayırmak veya yapay zekâ özetleme hatlarına altyazı çekmek için kullanılır.",
+    "use_case_en": "Used for offline archiving, extracting audio/subtitles, and feeding transcripts into AI summarization pipelines."
+  },
+  {
+    "id": "nmap",
+    "name": "Nmap",
+    "repo": "nmap/nmap",
+    "url": "https://github.com/nmap/nmap",
+    "stars": "13.8k",
+    "tier": "C",
+    "category": "Security & OSINT",
+    "tags": [
+      "Network",
+      "Scan",
+      "Security"
+    ],
+    "summary_tr": "Ağ keşfi, açık port taraması ve güvenlik denetimi için on yıllardır kullanılan temel açık kaynak ağ aracı.",
+    "summary_en": "The foundational open-source utility for network discovery, port scanning, and security auditing.",
+    "use_case_tr": "Ev veya ofis ağındaki bağlı cihazları, açık servisleri ve güvenlik duvarı kurallarını doğrulamak için kullanılır.",
+    "use_case_en": "Essential for mapping local network devices, verifying open ports, and auditing firewalls."
+  },
+  {
+    "id": "comfyui",
+    "name": "ComfyUI",
+    "repo": "Comfy-Org/ComfyUI",
+    "url": "https://github.com/Comfy-Org/ComfyUI",
+    "stars": "132k",
+    "tier": "C",
+    "category": "Reverse Eng & Creative",
+    "tags": [
+      "Image",
+      "Video",
+      "Workflow",
+      "Nodes"
+    ],
+    "summary_tr": "Flux, Stable Diffusion ve açık kaynak video modelleri için düğüm (node) tabanlı, en güçlü ve modüler üretken yapay zekâ arayüzü.",
+    "summary_en": "The most powerful modular node-based GUI and backend for running local image and video diffusion workflows.",
+    "use_case_tr": "Uygulama ikonları, tanıtım görselleri ve tekrarlanabilir yerel görsel üretim akışları tasarlamak için kullanılır.",
+    "use_case_en": "Powers reproducible local image, asset, and video generation pipelines."
+  },
+  {
+    "id": "metasploit",
+    "name": "Metasploit Framework",
+    "repo": "rapid7/metasploit-framework",
+    "url": "https://github.com/rapid7/metasploit-framework",
+    "stars": "33.7k",
+    "tier": "C",
+    "category": "Security & OSINT",
+    "tags": [
+      "Pentest",
+      "Security",
+      "Exploit"
+    ],
+    "summary_tr": "Güvenlik uzmanlarının sistem açıklarını kontrollü biçimde doğrulaması için kullandığı lider sızma testi (penetration testing) platformu.",
+    "summary_en": "Leading open-source penetration testing framework for verifying vulnerabilities and hardening systems.",
+    "use_case_tr": "Yetkili güvenlik denetimleri ve savunma (red/blue team) testlerinde kullanılır.",
+    "use_case_en": "Used in authorized penetration testing and security hardening workflows."
+  },
+  {
+    "id": "wireshark",
+    "name": "Wireshark",
+    "repo": "wireshark/wireshark",
+    "url": "https://github.com/wireshark/wireshark",
+    "stars": "10.0k",
+    "tier": "D",
+    "category": "Security & OSINT",
+    "tags": [
+      "Network",
+      "Packets",
+      "Forensics"
+    ],
+    "summary_tr": "Ağ trafiğini paket bazında canlı olarak yakalayıp inceleyen dünyanın en yaygın ağ protokol analizörü.",
+    "summary_en": "The world's foremost open-source network protocol analyzer for deep packet inspection.",
+    "use_case_tr": "Uygulamaların gerçekten internete veri gönderip göndermediğini (gizlilik doğrulaması) ve protokol hatalarını incelemek için birebirdir.",
+    "use_case_en": "Invaluable for debugging network protocols and auditing app privacy claims."
+  },
+  {
+    "id": "openclaw",
+    "name": "OpenClaw",
+    "repo": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "stars": "392k",
+    "tier": "D",
+    "category": "AI Agents",
+    "tags": [
+      "Agent",
+      "Browser",
+      "Automation",
+      "Personal AI"
+    ],
+    "summary_tr": "Gerçek dünya görevlerini, tarayıcı etkileşimlerini ve mesajlaşma köprülerini otomatikleştiren devasa kişisel yapay zekâ ajan ekosistemi.",
+    "summary_en": "Massive open-source personal AI automation framework for real-world tasks, browser control, and messaging bridges.",
+    "use_case_tr": "Kişisel yapay zekâ asistanı felsefesini masaüstünden mobil cihazlara taşıyan MobileClaw vizyonunun ilham kaynağı ekosistem.",
+    "use_case_en": "The broader personal-AI agent ecosystem inspiring mobile-native on-device assistants like MobileClaw."
+  },
+  {
+    "id": "transformers",
+    "name": "Hugging Face Transformers",
+    "repo": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "stars": "167k",
+    "tier": "D",
+    "category": "Local LLM",
+    "tags": [
+      "LLM",
+      "Models",
+      "Infrastructure"
+    ],
+    "summary_tr": "Gemma, Qwen, Llama dahil yüz binlerce açık kaynak yapay zekâ modelinin temel eğitim, çıkarım ve dönüşüm kütüphanesi.",
+    "summary_en": "The core open-source model definition and inference library behind Gemma, Qwen, Llama, and thousands of AI models.",
+    "use_case_tr": "Mobil cihazlara GGUF veya LiteRT-LM olarak indirilen modellerin ana kaynağı ve standardı.",
+    "use_case_en": "The foundational upstream ecosystem powering the open models that run on-device in MobileClaw."
+  },
+  {
+    "id": "moneyprinterturbo",
+    "name": "MoneyPrinterTurbo",
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+    "stars": "144.7k",
+    "tier": "Featured",
+    "category": "AI Video & Image",
+    "tags": [
+      "Video",
+      "Automation",
+      "Shorts",
+      "LLM"
+    ],
+    "summary_tr": "Yalnızca bir konu veya anahtar kelime vererek senaryo, seslendirme, altyazı ve stok görüntülerle tek tıkla HD kısa video (Shorts/Reels) üreten açık kaynak otomasyon motoru.",
+    "summary_en": "Generate HD short-form videos automatically from a single topic or keyword using LLM scripting, TTS voiceovers, subtitles, and automated editing.",
+    "use_case_tr": "YouTube Shorts, TikTok ve ürün tanıtım videolarını hızlıca otomatik üretmek için kullanılır.",
+    "use_case_en": "Ideal for automated YouTube Shorts, Reels, and product explainer video pipelines."
+  },
+  {
+    "id": "openai-codex",
+    "name": "OpenAI Codex CLI",
+    "repo": "openai/codex",
+    "url": "https://github.com/openai/codex",
+    "stars": "135.9k",
+    "tier": "Featured",
+    "category": "AI Agents",
+    "tags": [
+      "Coding Agent",
+      "CLI",
+      "OpenAI"
+    ],
+    "summary_tr": "Doğrudan terminalde çalışan, kod tabanını okuyup düzenleyen, test çalıştıran ve komut yürüten hafif açık kaynak kodlama ajanı.",
+    "summary_en": "Lightweight open-source coding agent that runs directly in your terminal to read, edit, test, and ship code.",
+    "use_case_tr": "Terminal tabanlı hızlı hata ayıklama, kod inceleme ve çok dosyalı yeniden düzenlemelerde kullanılır.",
+    "use_case_en": "Used for terminal-native code reviews, refactoring, and automated test-fix loops."
+  },
+  {
+    "id": "tradingagents",
+    "name": "TradingAgents",
+    "repo": "TauricResearch/TradingAgents",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "stars": "123.2k",
+    "tier": "Featured",
+    "category": "AI Agents",
+    "tags": [
+      "Multi-Agent",
+      "Finance",
+      "Quant"
+    ],
+    "summary_tr": "Temel analiz, teknik analiz, haber duyarlılığı ve risk yönetimi rollerini ayrı ajanlara bölen çoklu ajan finansal araştırma çatkısı.",
+    "summary_en": "Multi-agent LLM financial trading and market research framework splitting analyst, researcher, trader, and risk-manager roles.",
+    "use_case_tr": "Çoklu ajan (multi-agent) mimarilerinin gerçek zamanlı karar alma süreçlerinde nasıl kurgulandığını incelemek için referans proje.",
+    "use_case_en": "Reference architecture for collaborative multi-agent debate and structured decision pipelines."
+  },
+  {
+    "id": "addyosmani-agent-skills",
+    "name": "Agent Skills (Addy Osmani)",
+    "repo": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "stars": "119.1k",
+    "tier": "Featured",
+    "category": "DevTools & MCP",
+    "tags": [
+      "Agent Skills",
+      "Engineering",
+      "Best Practices"
+    ],
+    "summary_tr": "Yapay zekâ kodlama ajanlarının üretim kalitesinde (production-grade) yazılım geliştirmesi için derlenmiş mühendislik becerileri koleksiyonu.",
+    "summary_en": "Production-grade engineering skills and workflows for AI coding agents curated by Addy Osmani.",
+    "use_case_tr": "Kodlama ajanlarına mimari, performans, test ve kod kalitesi standartlarını kalıcı skill olarak öğretmek için kullanılır.",
+    "use_case_en": "Drops directly into AI coding agents to enforce production engineering standards."
+  },
+  {
+    "id": "voicestudio",
+    "name": "VoiceStudio",
+    "repo": "debpalash/VoiceStudio",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "stars": "114.2k",
+    "tier": "Featured",
+    "category": "Local LLM",
+    "tags": [
+      "TTS",
+      "Voice Cloning",
+      "Local",
+      "Dubbing"
+    ],
+    "summary_tr": "Tamamen yerel (offline) çalışan açık kaynak ElevenLabs alternatifi: ses klonlama, ses tasarımı, video dublaj ve dikte stüdyosu.",
+    "summary_en": "Open-source, fully local ElevenLabs alternative supporting voice cloning, voice design, video dubbing, and dictation.",
+    "use_case_tr": "Bulut aboneliği ödemeden kendi bilgisayarında doğal seslendirme ve dublaj üretmek için kullanılır.",
+    "use_case_en": "Creates natural voiceovers and dubbed videos completely offline without cloud TTS fees."
+  },
+  {
+    "id": "localsend",
+    "name": "LocalSend",
+    "repo": "localsend/localsend",
+    "url": "https://github.com/localsend/localsend",
+    "stars": "99.8k",
+    "tier": "Featured",
+    "category": "DevTools & MCP",
+    "tags": [
+      "Local Wi-Fi",
+      "AirDrop",
+      "Cross-Platform",
+      "Privacy"
+    ],
+    "summary_tr": "Windows, Mac, Linux, Android ve iPhone arasında hesap veya internet olmadan aynı Wi-Fi üzerinden anında dosya paylaşımı yapan açık kaynak AirDrop alternatifi.",
+    "summary_en": "Open-source cross-platform AirDrop alternative for instant, encrypted file transfers over local Wi-Fi with no cloud or account.",
+    "use_case_tr": "MobileClaw içindeki Bilgisayara Gönder (SendToPc) özelliğiyle de doğrudan uyumlu, sıfır bulutlu yerel dosya paylaşımı sağlar.",
+    "use_case_en": "Works seamlessly alongside MobileClaw Send-to-PC for fast, private local file transfers."
+  },
+  {
+    "id": "hyperframes",
+    "name": "HyperFrames (HeyGen)",
+    "repo": "heygen-com/hyperframes",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "stars": "87.0k",
+    "tier": "Featured",
+    "category": "AI Video & Image",
+    "tags": [
+      "Video Editor",
+      "AI Video",
+      "Open Source"
+    ],
+    "summary_tr": "Metinle tarif ettiğin videoyu gerçekten düzenlenebilir zaman çizelgesi (project) olarak üreten açık kaynak yapay zekâ video düzenleyici.",
+    "summary_en": "Free, open-source AI video editor where you describe a video and get a real editable timeline project.",
+    "use_case_tr": "Tek seferlik kara kutu AI videoları yerine sahne sahne düzenlenebilir ürün tanıtım videoları oluşturmak için kullanılır.",
+    "use_case_en": "Generates editable video timelines instead of locked black-box clips."
+  },
+  {
+    "id": "vaultwarden",
+    "name": "Vaultwarden",
+    "repo": "dani-garcia/vaultwarden",
+    "url": "https://github.com/dani-garcia/vaultwarden",
+    "stars": "71.0k",
+    "tier": "B",
+    "category": "Security & OSINT",
+    "tags": [
+      "Rust",
+      "Passwords",
+      "Self-Hosted",
+      "Privacy"
+    ],
+    "summary_tr": "Rust ile yazılmış hafif, kendi sunucunda (self-hosted) barındırılabilen Bitwarden uyumlu açık kaynak şifre yöneticisi sunucusu.",
+    "summary_en": "Lightweight, self-hosted Bitwarden-compatible password manager server written in Rust.",
+    "use_case_tr": "Tüm şifrelerini ve 2FA kodlarını üçüncü parti bulut yerine kendi ev sunucunda ücretsiz ve güvenli tutmak için kullanılır.",
+    "use_case_en": "Hosts your own encrypted password vault and passkeys on minimal hardware."
+  },
+  {
+    "id": "cleanyourtv",
+    "name": "CleanYourTV",
+    "repo": "Gathin23/cleanyourtv",
+    "url": "https://github.com/Gathin23/cleanyourtv",
+    "stars": "59.6k",
+    "tier": "Featured",
+    "category": "DevTools & MCP",
+    "tags": [
+      "Android TV",
+      "Launcher",
+      "Debloat"
+    ],
+    "summary_tr": "Android TV ve Google TV cihazlarını Wi-Fi üzerinden gereksiz uygulamalardan (bloatware) arındırıp Apple TV tarzı temiz bir ana ekrana kavuşturur.",
+    "summary_en": "Debloats any Android TV or Google TV over Wi-Fi and installs a clean, ad-free Apple TV-style home screen.",
+    "use_case_tr": "Yavaşlayan veya reklam dolu Android TV kutularını hızlandırmak için ideal açık kaynak araç.",
+    "use_case_en": "Speeds up sluggish Android TV boxes by stripping bloatware and ad-heavy launchers."
+  },
+  {
+    "id": "librechat",
+    "name": "LibreChat",
+    "repo": "danny-avila/LibreChat",
+    "url": "https://github.com/danny-avila/LibreChat",
+    "stars": "47.4k",
+    "tier": "B",
+    "category": "Local LLM",
+    "tags": [
+      "Chat UI",
+      "MCP",
+      "Multi-LLM",
+      "Self-Hosted"
+    ],
+    "summary_tr": "OpenAI, Claude, DeepSeek, Groq, yerel Ollama ve MCP sunucularını tek bir self-hosted ChatGPT arayüzünde birleştiren gelişmiş sohbet platformu.",
+    "summary_en": "Enhanced self-hosted ChatGPT clone supporting Agents, MCP, Skills, DeepSeek, Claude, OpenAI, Groq, and local models.",
+    "use_case_tr": "Kendi API anahtarlarınla veya yerel modellerle ekip içi özel yapay zekâ sohbet portalı kurmak için kullanılır.",
+    "use_case_en": "Unifies cloud APIs, local models, and MCP tools into one self-hosted chat workspace."
+  },
+  {
+    "id": "voxcpm",
+    "name": "VoxCPM2",
+    "repo": "OpenBMB/VoxCPM",
+    "url": "https://github.com/OpenBMB/VoxCPM",
+    "stars": "42.7k",
+    "tier": "B",
+    "category": "Local LLM",
+    "tags": [
+      "TTS",
+      "Speech",
+      "Voice Cloning",
+      "Multilingual"
+    ],
+    "summary_tr": "Çok dilli konuşma sentezi, yaratıcı ses tasarımı ve gerçeğe yakın ses klonlama sunan tokenizer-free açık kaynak TTS modeli.",
+    "summary_en": "Tokenizer-free multilingual TTS model for expressive speech generation, creative voice design, and realistic voice cloning.",
+    "use_case_tr": "Sesli asistanlar, kitap okuma ve yerel konuşma sentezi uygulamalarında yüksek doğallık için kullanılır.",
+    "use_case_en": "Powers natural multilingual voice assistants and local speech synthesis."
+  },
+  {
+    "id": "finceptterminal",
+    "name": "FinceptTerminal",
+    "repo": "Fincept-Corporation/FinceptTerminal",
+    "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+    "stars": "34.0k",
+    "tier": "B",
+    "category": "DevTools & MCP",
+    "tags": [
+      "Finance",
+      "Analytics",
+      "Terminal"
+    ],
+    "summary_tr": "Gelişmiş piyasa analitiği, yatırım araştırması ve makroekonomik verileri bir araya getiren açık kaynak modern finans terminali.",
+    "summary_en": "Modern open-source financial terminal offering market analytics, investment research, and economic data feeds.",
+    "use_case_tr": "Ücretli finans terminallerine açık kaynak alternatif arayan analistler ve geliştiriciler için.",
+    "use_case_en": "An open-source Bloomberg-style workspace for market data and research."
+  },
+  {
+    "id": "awesome-nano-banana-prompts",
+    "name": "Awesome Nano Banana Pro Prompts",
+    "repo": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+    "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+    "stars": "13.8k",
+    "tier": "B",
+    "category": "AI Video & Image",
+    "tags": [
+      "Prompts",
+      "Image Gen",
+      "Gallery"
+    ],
+    "summary_tr": "16 dilde 10.000+ önizleme görselli küratörlü görsel üretim prompt kütüphanesi.",
+    "summary_en": "Curated library of 10,000+ image generation prompts with visual previews across 16 languages.",
+    "use_case_tr": "Uygulama mağazası görselleri, ikonlar ve sosyal medya tasarımları için kanıtlanmış prompt şablonları bulmak için kullanılır.",
+    "use_case_en": "Go-to prompt reference for product visuals, icons, and marketing graphics."
+  },
+  {
+    "id": "yue-music",
+    "name": "YuE2 Music Generation",
+    "repo": "multimodal-art-projection/YuE",
+    "url": "https://github.com/multimodal-art-projection/YuE",
+    "stars": "13.6k",
+    "tier": "B",
+    "category": "AI Video & Image",
+    "tags": [
+      "Music AI",
+      "Audio",
+      "Open Source"
+    ],
+    "summary_tr": "Tam uzunlukta şarkı üretimi, sıfır-atış (zero-shot) cover ve ajanlı müzik düzenleme yapabilen açık kaynak müzik üretim modeli.",
+    "summary_en": "Frontier open-source music generation model with symbolic planning, zero-shot covers, and agentic music editing.",
+    "use_case_tr": "Telifsiz arka plan müziği, jingle ve demo parçaları açık kaynak modellerle üretmek için kullanılır.",
+    "use_case_en": "Generates royalty-free full-length tracks and custom background music locally."
+  },
+  {
+    "id": "nango",
+    "name": "Nango",
+    "repo": "NangoHQ/nango",
+    "url": "https://github.com/NangoHQ/nango",
+    "stars": "13.3k",
+    "tier": "B",
+    "category": "DevTools & MCP",
+    "tags": [
+      "OAuth",
+      "API",
+      "Integrations",
+      "Agents"
+    ],
+    "summary_tr": "Yapay zekâ ajanlarını ve uygulamalarını 1.000+ harici API ve OAuth servisine tek bir açık kaynak altyapı üzerinden bağlar.",
+    "summary_en": "Open-source unified OAuth and API integration engine connecting AI agents and apps to 1,000+ external services.",
+    "use_case_tr": "Her servis için ayrı OAuth yenileme ve senkronizasyon kodu yazmak yerine ajanlara güvenli dış API erişimi kazandırmak için kullanılır.",
+    "use_case_en": "Handles OAuth token refreshes and API syncs for production AI agents."
+  },
+  {
+    "id": "flowsint",
+    "name": "Flowsint",
+    "repo": "reconurge/flowsint",
+    "url": "https://github.com/reconurge/flowsint",
+    "stars": "10.2k",
+    "tier": "C",
+    "category": "Security & OSINT",
+    "tags": [
+      "OSINT",
+      "Graph",
+      "Security"
+    ],
+    "summary_tr": "Siber güvenlik analistleri ve araştırmacılar için görsel, graf tabanlı ve genişletilebilir açık kaynak istihbarat (OSINT) platformu.",
+    "summary_en": "Visual, flexible, graph-based OSINT investigation platform built for cybersecurity analysts and researchers.",
+    "use_case_tr": "Alan adı, IP ve varlık ilişkilerini etkileşimli düğüm grafiği üzerinde görselleştirmek için kullanılır.",
+    "use_case_en": "Maps relationships between domains, IPs, and entities in an interactive graph."
+  },
+  {
+    "id": "agentic-inbox",
+    "name": "Cloudflare Agentic Inbox",
+    "repo": "cloudflare/agentic-inbox",
+    "url": "https://github.com/cloudflare/agentic-inbox",
+    "stars": "8.8k",
+    "tier": "Featured",
+    "category": "AI Agents",
+    "tags": [
+      "Cloudflare",
+      "Email",
+      "Agent",
+      "Serverless"
+    ],
+    "summary_tr": "Tamamen Cloudflare Workers üzerinde çalışan, dahili yapay zekâ ajanına sahip kendi kendine barındırılabilir (self-hosted) e-posta istemcisi.",
+    "summary_en": "Self-hosted email client with a built-in AI agent running entirely on Cloudflare Workers.",
+    "use_case_tr": "Gelen kutusunu otomatik sınıflandırma, özetleme ve yanıt taslağı hazırlama iş akışları için referans mimari.",
+    "use_case_en": "Reference architecture for serverless AI email triage and autonomous inbox assistants."
+  },
+  {
+    "id": "opendisplay",
+    "name": "OpenDisplay",
+    "repo": "peetzweg/opendisplay",
+    "url": "https://github.com/peetzweg/opendisplay",
+    "stars": "6.4k",
+    "tier": "C",
+    "category": "DevTools & MCP",
+    "tags": [
+      "Display",
+      "Upcycling",
+      "Hardware"
+    ],
+    "summary_tr": "Eski iPhone, iPad veya yedek Mac cihazlarını kısıtlama olmadan gerçek ikinci ekran olarak kullanmayı sağlayan açık kaynak araç.",
+    "summary_en": "Use a spare iPhone, iPad, or Mac as a true unrestricted second display.",
+    "use_case_tr": "Çekmecedeki eski cihazları ikinci monitöre dönüştürme (e-atık geri dönüşümü) senaryoları için.",
+    "use_case_en": "Upcycles spare devices into extra desktop monitors."
+  },
+  {
+    "id": "chat-on-steroids",
+    "name": "Chat on Steroids",
+    "repo": "totec448-spec/chat-on-steroids",
+    "url": "https://github.com/totec448-spec/chat-on-steroids",
+    "stars": "5.2k",
+    "tier": "C",
+    "category": "AI Agents",
+    "tags": [
+      "MCP",
+      "Chrome",
+      "Multi-Agent"
+    ],
+    "summary_tr": "ChatGPT arayüzüne yerel MCP araçları, Chrome entegrasyonu, hedef takibi ve kalıcı çoklu ajan yetenekleri ekleyen açık kaynak proje.",
+    "summary_en": "Adds cross-platform local MCP capabilities, Chrome integration, and durable multi-agent loops to ChatGPT.",
+    "use_case_tr": "Web tabanlı sohbet arayüzlerini yerel bilgisayar araçlarıyla (MCP) birleştirmek isteyenler için.",
+    "use_case_en": "Bridges web chat interfaces with local MCP servers and browser control."
+  },
+  {
+    "id": "deepseek-chat-demo",
+    "name": "DeepSeek Chat Demo",
+    "repo": "deepseek-ai/chat-demo",
+    "url": "https://github.com/deepseek-ai/chat-demo",
+    "stars": "5.0k",
+    "tier": "Featured",
+    "category": "Local LLM",
+    "tags": [
+      "DeepSeek",
+      "Open Source",
+      "Chat UI"
+    ],
+    "summary_tr": "DeepSeek ekibinin resmi olarak açık kaynak yayınladığı modern sohbet arayüzü ve referans istemci deposu.",
+    "summary_en": "Official open-source chat interface and reference client released by DeepSeek AI.",
+    "use_case_tr": "Hızlıca kendi DeepSeek / OpenAI-uyumlu sohbet arayüzünü kurmak ve akış (streaming) yapısını incelemek için.",
+    "use_case_en": "Clean official reference implementation for streaming LLM chat UIs."
+  },
+  {
+    "id": "headunit-revived",
+    "name": "Headunit Revived",
+    "repo": "andreknieriem/headunit-revived",
+    "url": "https://github.com/andreknieriem/headunit-revived",
+    "stars": "3.4k",
+    "tier": "C",
+    "category": "DevTools & MCP",
+    "tags": [
+      "Android Auto",
+      "Car",
+      "Upcycling"
+    ],
+    "summary_tr": "Eski bir Android tablet veya telefonu araç içi Android Auto ekranına (headunit) dönüştüren açık kaynak uygulama.",
+    "summary_en": "Open-source headunit app that turns a spare Android phone or tablet into an Android Auto display.",
+    "use_case_tr": "Eski araçlara modern araç ekranı kazandırmak için MobileClaw Sürüş Kokpiti ile aynı e-atık dönüşümü alanında öne çıkan proje.",
+    "use_case_en": "Repurposes spare Android tablets into in-car Android Auto displays."
+  },
+  {
+    "id": "flux-3-image-klein",
+    "name": "FLUX 3 Image Klein",
+    "repo": "black-forest-labs/flux-3-image-klein",
+    "url": "https://github.com/black-forest-labs/flux-3-image-klein",
+    "stars": "205",
+    "tier": "Featured",
+    "category": "AI Video & Image",
+    "tags": [
+      "FLUX",
+      "Image Gen",
+      "Black Forest Labs"
+    ],
+    "summary_tr": "Black Forest Labs tarafından yayınlanan hızlı ve hafif FLUX 3 Image Klein görsel üretim modelinin resmi referans çıkarım kodu.",
+    "summary_en": "Official reference inference code for Black Forest Labs compact FLUX 3 Image Klein model.",
+    "use_case_tr": "Daha düşük VRAM ile yüksek kaliteli yerel görsel üretimi denemek isteyen geliştiriciler için.",
+    "use_case_en": "Fast, lightweight local image generation from Black Forest Labs."
+  },
+  {
+    "id": "luma-dream-machine",
+    "name": "Luma Dream Machine",
+    "repo": "app.lumalabs.ai",
+    "url": "https://app.lumalabs.ai/",
+    "stars": "Web Studio",
+    "tier": "Featured",
+    "category": "AI Video & Image",
+    "tags": [
+      "Text-to-Video",
+      "Image-to-Video",
+      "3D"
+    ],
+    "summary_tr": "Metinden ve görselden sinematik kamera hareketli yüksek kaliteli yapay zekâ videoları üreten Luma Labs stüdyosu.",
+    "summary_en": "Luma Labs studio for cinematic text-to-video and image-to-video generation with camera motion control.",
+    "use_case_tr": "Ürün tanıtımları, konsept klipler ve görselden hareketli sahne üretimi için kullanılır.",
+    "use_case_en": "Used for cinematic product demos and image-to-video storytelling."
+  },
+  {
+    "id": "kling-ai",
+    "name": "Kling AI",
+    "repo": "kling.ai",
+    "url": "https://kling.ai/",
+    "stars": "Web Studio",
+    "tier": "Featured",
+    "category": "AI Video & Image",
+    "tags": [
+      "AI Video",
+      "Motion",
+      "Image-to-Video"
+    ],
+    "summary_tr": "Gerçekçi fizik ve akıcı karakter hareketleriyle öne çıkan yeni nesil yapay zekâ video ve görsel üretim platformu.",
+    "summary_en": "Next-gen AI video and image creation platform known for realistic physics and fluid character motion.",
+    "use_case_tr": "Sosyal medya reklamları, dinamik sahneler ve karakter animasyonları üretmek için kullanılır.",
+    "use_case_en": "Popular for high-motion social clips and realistic product videos."
+  },
+  {
+    "id": "google-labs-flow",
+    "name": "Google Labs Flow (Veo)",
+    "repo": "labs.google/fx/tools/flow",
+    "url": "https://labs.google/fx/tr/tools/flow",
+    "stars": "Google Labs",
+    "tier": "Featured",
+    "category": "AI Video & Image",
+    "tags": [
+      "Google",
+      "Veo",
+      "Filmmaking",
+      "AI Video"
+    ],
+    "summary_tr": "Google Labs ve Veo tabanlı, sahne devamlılığı ve kamera kontrolü sunan yapay zekâ film/video üretim aracı.",
+    "summary_en": "Google Labs AI filmmaking tool powered by Veo for consistent scenes and cinematic camera direction.",
+    "use_case_tr": "Çok sahneli kısa film ve tanıtım videosu kurguları üretmek için kullanılır.",
+    "use_case_en": "Built for multi-scene AI filmmaking and storyboarding."
+  },
+  {
+    "id": "hailuo-ai",
+    "name": "Hailuo AI Video",
+    "repo": "hailuoai.video",
+    "url": "https://hailuoai.video/",
+    "stars": "Web Studio",
+    "tier": "B",
+    "category": "AI Video & Image",
+    "tags": [
+      "MiniMax",
+      "Image-to-Video",
+      "AI Video"
+    ],
+    "summary_tr": "MiniMax destekli, tek bir fotoğraftan yüksek tutarlılıklı ve etkileyici sinematik videolar oluşturan görselden videoya platformu.",
+    "summary_en": "MiniMax-powered image-to-video and text-to-video platform with expressive motion fidelity.",
+    "use_case_tr": "Statik tasarımları ve fotoğrafları saniyeler içinde canlı video sahnelerine dönüştürmek için kullanılır.",
+    "use_case_en": "Animates static photos and mockups into smooth video clips."
+  },
+  {
+    "id": "higgsfield-ai",
+    "name": "Higgsfield AI",
+    "repo": "higgsfield.ai",
+    "url": "https://higgsfield.ai/",
+    "stars": "Web Studio",
+    "tier": "B",
+    "category": "AI Video & Image",
+    "tags": [
+      "Camera Control",
+      "Cinema",
+      "AI Video"
+    ],
+    "summary_tr": "Özel kamera hareketi ön ayarları (dolly, crash zoom, orbit) ile sinematik AI videoları üreten yaratıcı video platformu.",
+    "summary_en": "Creative AI video platform specializing in director-grade camera motion presets.",
+    "use_case_tr": "Sinematik kamera açılı sosyal medya ve reklam klipleri çekmek için kullanılır.",
+    "use_case_en": "Ideal for stylized camera movements in short-form ads."
+  },
+  {
+    "id": "lumeflow-ai",
+    "name": "LumeFlow AI (Seedance)",
+    "repo": "lumeflow.ai",
+    "url": "https://www.lumeflow.ai/",
+    "stars": "Web Studio",
+    "tier": "B",
+    "category": "AI Video & Image",
+    "tags": [
+      "Seedance",
+      "Image-to-Video",
+      "AI Video"
+    ],
+    "summary_tr": "Seedance dahil çoklu video modellerini tek panelde toplayan, görselden videoya dönüşüm odaklı yapay zekâ video aracı.",
+    "summary_en": "Multi-model image-to-video web studio featuring Seedance and stylized camera flyover transitions.",
+    "use_case_tr": "Şehir/mekân geçişleri ve zaman atlamalı (timelapse) konsept videolar üretmek için kullanılır.",
+    "use_case_en": "Great for architectural flyovers and time-lapse visual transformations."
+  },
+  {
+    "id": "heygen-web",
+    "name": "HeyGen",
+    "repo": "heygen.com",
+    "url": "https://www.heygen.com/",
+    "stars": "Web Studio",
+    "tier": "B",
+    "category": "AI Video & Image",
+    "tags": [
+      "Avatar",
+      "Video Translation",
+      "Lip Sync"
+    ],
+    "summary_tr": "Gerçekçi dijital avatarlar ve dudak senkronizasyonlu çok dilli video çevirisi sunan lider yapay zekâ video platformu.",
+    "summary_en": "Leading AI avatar presenter and lip-synced multilingual video translation platform.",
+    "use_case_tr": "Uygulama tanıtım ve eğitim videolarını tek çekimle Türkçe, İngilizce ve diğer dillere dublajlamak için kullanılır.",
+    "use_case_en": "Translates product demos and tutorials into multiple languages with lip-sync."
+  },
+  {
+    "id": "fliki-ai",
+    "name": "Fliki AI",
+    "repo": "fliki.ai",
+    "url": "https://fliki.ai/",
+    "stars": "Web Studio",
+    "tier": "B",
+    "category": "AI Video & Image",
+    "tags": [
+      "Text-to-Video",
+      "TTS",
+      "Voiceover"
+    ],
+    "summary_tr": "Blog yazılarını, senaryoları ve sunumları gerçekçi yapay zekâ seslendirmeleriyle otomatik videoya dönüştüren içerik platformu.",
+    "summary_en": "Turns blog posts, scripts, and ideas into narrated videos with realistic AI voices.",
+    "use_case_tr": "Yazılı içerikleri ve sürüm notlarını hızlıca sesli tanıtım videosuna çevirmek için kullanılır.",
+    "use_case_en": "Converts written guides and release notes into narrated social videos."
+  },
+  {
+    "id": "leonardo-ai",
+    "name": "Leonardo AI",
+    "repo": "app.leonardo.ai",
+    "url": "https://app.leonardo.ai/",
+    "stars": "Web Studio",
+    "tier": "B",
+    "category": "AI Video & Image",
+    "tags": [
+      "Image Gen",
+      "Game Assets",
+      "Design"
+    ],
+    "summary_tr": "Oyun varlıkları, uygulama ikonları ve stil tutarlılığı yüksek görseller üretmek için gelişmiş model ön ayarları sunan tasarım platformu.",
+    "summary_en": "Creative AI image generation studio with style presets, fine-tuned models, and asset pipelines.",
+    "use_case_tr": "Uygulama konsept sanatı, oyun varlıkları ve tutarlı marka görselleri üretmek için kullanılır.",
+    "use_case_en": "Widely used for consistent app illustrations, icons, and game art."
+  },
+  {
+    "id": "krea-ai",
+    "name": "Krea AI",
+    "repo": "krea.ai",
+    "url": "https://www.krea.ai/",
+    "stars": "Web Studio",
+    "tier": "B",
+    "category": "AI Video & Image",
+    "tags": [
+      "Real-Time",
+      "Upscale",
+      "Image & Video"
+    ],
+    "summary_tr": "Gerçek zamanlı görsel üretim, yüksek çözünürlüklü büyütme (upscale/enhance) ve video üretimi sunan yaratıcı yapay zekâ stüdyosu.",
+    "summary_en": "Real-time AI image synthesis, high-detail upscaling/enhancement, and video generation suite.",
+    "use_case_tr": "Düşük çözünürlüklü görselleri keskinleştirmek ve gerçek zamanlı eskizden tasarım üretmek için kullanılır.",
+    "use_case_en": "Ideal for real-time visual iteration and crisp image upscaling."
+  },
+  {
+    "id": "stability-assistant",
+    "name": "Stability AI / Stable Assistant",
+    "repo": "stability.ai",
+    "url": "https://stability.ai/stable-assistant",
+    "stars": "Web Studio",
+    "tier": "C",
+    "category": "AI Video & Image",
+    "tags": [
+      "Stable Diffusion",
+      "3D",
+      "Audio"
+    ],
+    "summary_tr": "Stable Diffusion yaratıcılarının görsel, 3D model ve ses üretim araçlarını tek arayüzde sunduğu resmi platform.",
+    "summary_en": "Official Stability AI workspace combining Stable Diffusion image, 3D, and audio generation tools.",
+    "use_case_tr": "Hızlı görsel düzenleme, arka plan kaldırma ve 3D obje üretimi için kullanılır.",
+    "use_case_en": "All-in-one workspace for Stable Diffusion image editing and 3D generation."
+  },
+  {
+    "id": "davinci-ai",
+    "name": "DaVinci AI",
+    "repo": "davinci.ai",
+    "url": "https://davinci.ai/",
+    "stars": "Web Studio",
+    "tier": "C",
+    "category": "AI Video & Image",
+    "tags": [
+      "Image Gen",
+      "Art",
+      "Mobile"
+    ],
+    "summary_tr": "Hızlı stil şablonlarıyla mobil ve web üzerinden yapay zekâ görseli ve dijital sanat üreten uygulama.",
+    "summary_en": "AI art and image generator with ready-made visual styles on web and mobile.",
+    "use_case_tr": "Hızlı sosyal medya görselleri ve portre/illüstrasyon denemeleri için kullanılır.",
+    "use_case_en": "Quick stylized artwork and social visual generation."
+  },
+  {
+    "id": "focalml",
+    "name": "FocalML",
+    "repo": "focalml.com",
+    "url": "https://focalml.com/",
+    "stars": "Web Studio",
+    "tier": "C",
+    "category": "AI Video & Image",
+    "tags": [
+      "Storyboarding",
+      "AI Video",
+      "Characters"
+    ],
+    "summary_tr": "Karakter tutarlılığını koruyarak sahne sahne hikâye ve video kurgusu oluşturmaya odaklanan yapay zekâ video stüdyosu.",
+    "summary_en": "AI video storytelling platform focused on character consistency across multi-shot scenes.",
+    "use_case_tr": "Aynı karakterle birden fazla sahneli kısa hikâye veya reklam videosu üretmek için kullanılır.",
+    "use_case_en": "Maintains consistent characters across multi-scene AI video stories."
+  },
+  {
+    "id": "artcraft-apps",
+    "name": "ArtCraft App Suite",
+    "repo": "getartcraft.com/apps",
+    "url": "https://getartcraft.com/apps",
+    "stars": "Open Suite",
+    "tier": "Featured",
+    "category": "Reverse Eng & Creative",
+    "tags": [
+      "Creative Suite",
+      "PhotoCraft",
+      "VectorCraft",
+      "Open Source"
+    ],
+    "summary_tr": "PhotoCraft, VectorCraft, FilmCraft, FigCraft ve CADCraft gibi ücretsiz/açık kaynak yaratıcı uygulamaları tek çatı altında toplayan topluluk paketi.",
+    "summary_en": "Community suite of free open-source creative tools including PhotoCraft, VectorCraft, FilmCraft, FigCraft, and CADCraft.",
+    "use_case_tr": "Aylık ücretli tasarım/video yazılımlarına açık kaynak alternatifler bulmak için kullanılır.",
+    "use_case_en": "Directory of open-source creative apps replacing pricey subscription suites."
+  },
+  {
+    "id": "qwen-image-edit-hf",
+    "name": "Qwen-Image-Edit LoRAs Fast",
+    "repo": "huggingface.co/spaces/Onise/Qwen-Image-Edit-2509-LoRAs-Fast",
+    "url": "https://huggingface.co/spaces/Onise/Qwen-Image-Edit-2509-LoRAs-Fast",
+    "stars": "HF Space",
+    "tier": "B",
+    "category": "AI Video & Image",
+    "tags": [
+      "Qwen",
+      "Image Edit",
+      "HuggingFace",
+      "LoRA"
+    ],
+    "summary_tr": "Qwen-Image-Edit modeli ve hızlandırıcı LoRA paketleriyle tarayıcı üzerinden ücretsiz, doğal dille fotoğraf düzenleme sunan Hugging Face Space uygulaması.",
+    "summary_en": "Fast Hugging Face Space for natural-language image editing powered by Qwen-Image-Edit and LoRAs.",
+    "use_case_tr": "Fotoğraflarda nesne değiştirme, stil uyarlama ve metinle rötuş yapmak için ücretsiz denenebilir.",
+    "use_case_en": "Free browser playground for prompt-based photo editing with Qwen."
+  },
+  {
+    "id": "qwen-image-gguf",
+    "name": "Qwen-Image-2.1-Turbo GGUF",
+    "repo": "huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+    "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+    "stars": "HF Model",
+    "tier": "C",
+    "category": "Local LLM",
+    "tags": [
+      "GGUF",
+      "Qwen",
+      "Image Gen",
+      "Local"
+    ],
+    "summary_tr": "Düşük bellek tüketimiyle yerel bilgisayarlarda GGUF formatında çalıştırılabilen kuantize Qwen-Image-2.1-Turbo görsel modeli.",
+    "summary_en": "Quantized GGUF weights of Qwen-Image-2.1-Turbo optimized for lower-VRAM local image generation.",
+    "use_case_tr": "ComfyUI veya yerel çıkarım araçlarında daha az GPU belleğiyle hızlı görsel üretmek için kullanılır.",
+    "use_case_en": "Runs fast local image generation on consumer GPUs via GGUF quantization."
+  },
+  {
+    "id": "capcut-web",
+    "name": "CapCut Web Editor",
+    "repo": "capcut.com",
+    "url": "https://www.capcut.com/",
+    "stars": "Web Studio",
+    "tier": "D",
+    "category": "AI Video & Image",
+    "tags": [
+      "Video Editor",
+      "Subtitles",
+      "Shorts"
+    ],
+    "summary_tr": "Tarayıcı ve mobilde otomatik altyazı, şablonlar ve yapay zekâ efektleriyle hızlı dikey/yatay video kurgusu sunan editör.",
+    "summary_en": "Fast browser and mobile video editor with auto-captions, templates, and AI effects.",
+    "use_case_tr": "AI araçlarıyla üretilen ham klipleri müzik ve altyazıyla birleştirip yayına hazırlamak için kullanılır.",
+    "use_case_en": "Assembles AI-generated clips with captions and pacing for social publishing."
+  }
+]
