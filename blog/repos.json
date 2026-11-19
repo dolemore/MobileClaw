@@ -1136,5 +1136,546 @@
     "summary_en": "Fast browser and mobile video editor with auto-captions, templates, and AI effects.",
     "use_case_tr": "AI araçlarıyla üretilen ham klipleri müzik ve altyazıyla birleştirip yayına hazırlamak için kullanılır.",
     "use_case_en": "Assembles AI-generated clips with captions and pacing for social publishing."
+  },
+  {
+    "id": "DfwtlrsucGz",
+    "name": "Open-World Driving Game in Your Browser",
+    "repo": "instagram.com/setupsai",
+    "url": "https://www.instagram.com/p/DfwtlrsucGz/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "Fun & Finds",
+    "tags": [
+      "Gaming",
+      "Web",
+      "Vehicles",
+      "Browser"
+    ],
+    "summary_tr": "Güçlü web siteleri serisinin 1209. bölümü: indirme ve kurulum gerektirmeyen, tarayıcıda çalışan ve farklı araçlara binmeni sağlayan açık dünya sürüş oyunu.",
+    "summary_en": "Part 1209 of the powerful-websites series: a browser-based open-world driving game where you can jump into all kinds of vehicles — no download or install required.",
+    "use_case_tr": "Sıkıldığında doğrudan bir sekmeden hızlı bir sürüş oyunu oturumu açmak için kullanılır.",
+    "use_case_en": "Open it when you're bored and want a quick driving-game session straight from a tab."
+  },
+  {
+    "id": "DfnuG1jG1at",
+    "name": "HyprMac",
+    "repo": "instagram.com/gittrend.io",
+    "url": "https://www.instagram.com/p/DfnuG1jG1at/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "DevTools & MCP",
+    "tags": [
+      "macOS",
+      "Window Manager",
+      "Tiling",
+      "Swift",
+      "Open Source"
+    ],
+    "summary_tr": "HyprMac, Mac pencerelerini kendiliğinden döşeme düzenine yerleştirir; ücretsiz, açık kaynak ve Swift ile yazılmıştır.",
+    "summary_en": "HyprMac automatically arranges your Mac windows in a tiling layout. It is free, open source, and written in Swift.",
+    "use_case_tr": "Ücretli bir döşeme yöneticisi almadan, klavyeyle yönetilen ve her zaman düzenli pencereler isteyen Mac kullanıcıları için.",
+    "use_case_en": "For Mac users who want keyboard-driven, always-tidy window layouts without paying for a tiling manager."
+  },
+  {
+    "id": "Dfm5F5_jqWg",
+    "name": "7 Free Repos to Become Iron Man",
+    "repo": "instagram.com/sebastianhardy_",
+    "url": "https://www.instagram.com/p/Dfm5F5_jqWg/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "AI Agents",
+    "tags": [
+      "Claude",
+      "GitHub",
+      "AI Automation",
+      "Open Source"
+    ],
+    "summary_tr": "Kişisel yapay zekâ otomasyonları kurmak için seçilmiş yedi ücretsiz GitHub deposu; gerçek hayat Tony Stark araç seti olarak sunuluyor.",
+    "summary_en": "A hand-picked set of seven free GitHub repositories for building personal AI automation systems — presented as a real-life Tony Stark toolkit.",
+    "use_case_tr": "Birden fazla yapay zekâ aracını tek bir iş akışında birleştirmek istediğinde başlangıç listesi olarak kullanılır.",
+    "use_case_en": "Use it as a starter shortlist when you want to chain multiple AI tools into one workflow."
+  },
+  {
+    "id": "DfcbDDuC63q",
+    "name": "Romantic Paper Snowflake Craft",
+    "repo": "instagram.com/ashkal_diy",
+    "url": "https://www.instagram.com/p/DfcbDDuC63q/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "Fun & Finds",
+    "tags": [
+      "DIY",
+      "Paper Craft",
+      "Handmade",
+      "Snowflake"
+    ],
+    "summary_tr": "Elde, hiçbir araç gerekmeden yapılan romantik bir kağıt kar tanesi kesiminin kısa DIY videosu.",
+    "summary_en": "A short DIY reel showing how to cut a romantic paper snowflake by hand — a simple paper-craft project with no tools needed.",
+    "use_case_tr": "Sıcak bir öğleden sonra için el işi fikri veya el yapımı süsleme olarak kullanılır.",
+    "use_case_en": "A quick hands-on craft idea for a cozy afternoon or a handmade decoration."
+  },
+  {
+    "id": "DfZELtliDJu",
+    "name": "Paper Hearts & Stars Craft",
+    "repo": "instagram.com/ashkal_diy",
+    "url": "https://www.instagram.com/p/DfZELtliDJu/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "Fun & Finds",
+    "tags": [
+      "DIY",
+      "Paper Craft",
+      "Handmade",
+      "Origami"
+    ],
+    "summary_tr": "Kalp ve yıldız kesmeyi gösteren el işi videosu; kolay bir katlama tarzı süsleme projesi.",
+    "summary_en": "Paper-craft reel for cutting hearts and stars by hand — an easy origami-style decoration project.",
+    "use_case_tr": "Hiçbir şey almadan el yapımı hediye paketi, kart veya oda süslemesi için kullanılır.",
+    "use_case_en": "For handmade gift wrapping, cards, or room decoration without buying anything."
+  },
+  {
+    "id": "DfZ-1aKDJFe",
+    "name": "10 GitHub Repos Instead of Expensive Tools",
+    "repo": "instagram.com/hfnhq",
+    "url": "https://www.instagram.com/p/DfZ-1aKDJFe/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "AI Agents",
+    "tags": [
+      "GitHub",
+      "MCP",
+      "Coding Agents",
+      "Local AI",
+      "Open Source"
+    ],
+    "summary_tr": "Pahalı yazılımlara alternatif on GitHub deposu: kodlama ajanları, yerel yapay zekâ modelleri, web kazıma, API'ler, MCP sunucuları ve geliştirici kaynakları.",
+    "summary_en": "Ten GitHub repositories that replace pricey software: coding agents, local AI models, web scraping, APIs, MCP servers, and developer resources.",
+    "use_case_tr": "Aylık araç aboneliklerini, yetkiden ödün vermeden düşürmek istediğinde başlangıç listesi olarak kullanılır.",
+    "use_case_en": "A starting list when you want to cut monthly tool subscriptions without losing capability."
+  },
+  {
+    "id": "DfUpCCLiSfS",
+    "name": "10 Open-Source Animation & VFX Tools",
+    "repo": "instagram.com/syntaix.ai",
+    "url": "https://www.instagram.com/p/DfUpCCLiSfS/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "AI Video & Image",
+    "tags": [
+      "Animation",
+      "VFX",
+      "Motion Graphics",
+      "Open Source",
+      "2D"
+    ],
+    "summary_tr": "2D animasyon, hareketli grafik, hareket yakalama, birleştirme ve parçacık efektlerini kapsayan on ücretsiz GitHub projesi: OpenToonz, Friction, FreeMoCap, Natron, Synfig, Effekseer, Theatre.js, Pencil2D, OpenVDB ve SVG.js.",
+    "summary_en": "Ten free GitHub projects covering 2D animation, motion graphics, motion capture, compositing and particle effects: OpenToonz, Friction, FreeMoCap, Natron, Synfig, Effekseer, Theatre.js, Pencil2D, OpenVDB and SVG.js.",
+    "use_case_tr": "Ticari yazılım ödemeden Hollywood tarzı animasyon ve VFX üretmek isteyen yaratıcılar için.",
+    "use_case_en": "For creators who want Hollywood-style animation and VFX without paying for commercial software."
+  },
+  {
+    "id": "DfT_DWgzb9H",
+    "name": "Admin Dashboard UI V2",
+    "repo": "instagram.com/code.xr",
+    "url": "https://www.instagram.com/p/DfT_DWgzb9H/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "UI & Design",
+    "tags": [
+      "React",
+      "Dashboard",
+      "Frontend",
+      "Charts",
+      "UI Design"
+    ],
+    "summary_tr": "React, CSS, JavaScript ve Framer Motion ile yapılmış; analiz kartları, akıcı grafikler ve duyarlı yerleşime sahip beyaz temalı yönetim paneli arayüzü.",
+    "summary_en": "A clean white-themed admin dashboard UI with analytics cards, smooth charts and responsive layout, built with React, CSS, JavaScript and Framer Motion.",
+    "use_case_tr": "Bir web projesi için modern bir yönetim paneli veya analiz ekranı gerektiğinde referans yerleşim olarak kullanılır.",
+    "use_case_en": "A reference layout when you need a modern admin panel or analytics screen for a web project."
+  },
+  {
+    "id": "DfHF5I1tMwE",
+    "name": "God's Eye View — Live World Map",
+    "repo": "instagram.com/burakcakir.ai",
+    "url": "https://www.instagram.com/p/DfHF5I1tMwE/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "Security & OSINT",
+    "tags": [
+      "OSINT",
+      "Live Map",
+      "OpenSky",
+      "AIS",
+      "USGS"
+    ],
+    "summary_tr": "MIT lisanslı, tarayıcıda çalışan ve 3B dünya küresi üzerine canlı veri çizen panel: OpenSky ile 11.000+ uçak, AISStream ile gemiler, CelesTrak ile 838 uydu, USGS ve NASA FIRMS ile son 24 saatin deprem ve yangınları ve yaklaşık 4.000 halka açık trafik kamerası.",
+    "summary_en": "An MIT-licensed browser panel that plots live data on a 3D globe: 11,000+ aircraft via OpenSky, ships via AISStream, 838 satellites via CelesTrak, 24-hour earthquakes and wildfires from USGS and NASA FIRMS, plus roughly 4,000 public traffic cameras.",
+    "use_case_tr": "Gerçek zamanlı durum farkındalığı paneli için yerel kurulum (Docker veya Pinokio) gerektirir; çoğu katman API anahtarı istemez.",
+    "use_case_en": "Set it up locally (Docker or Pinokio) for a real-time situational-awareness dashboard; most layers need no API key."
+  },
+  {
+    "id": "DfM5i4oIiI4",
+    "name": "NFS Underground in Your Browser",
+    "repo": "instagram.com/promptingbad",
+    "url": "https://www.instagram.com/p/DfM5i4oIiI4/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "Fun & Finds",
+    "tags": [
+      "Gaming",
+      "Retro",
+      "Browser",
+      "Nostalgia"
+    ],
+    "summary_tr": "Need for Speed: Underground oyununu doğrudan tarayıcıda oynama; klasik yarış oyunu indirme gerektirmiyor.",
+    "summary_en": "Need for Speed: Underground relived directly in the browser — the classic racing game runs without any download.",
+    "use_case_tr": "Boş birkaç dakikan olduğunda tek tıkla başlatabileceğin bir nostalji molası.",
+    "use_case_en": "A nostalgia break you can start in one click whenever you have a few spare minutes."
+  },
+  {
+    "id": "DfPnu3Uoian",
+    "name": "Revolt (1999) Back in the Browser",
+    "repo": "instagram.com/promptingbad",
+    "url": "https://www.instagram.com/p/DfPnu3Uoian/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "Fun & Finds",
+    "tags": [
+      "Gaming",
+      "Retro",
+      "Browser",
+      "Racing"
+    ],
+    "summary_tr": "1999 yapımı Revolt yarış klasiği yeniden oynanabilir; kurulum gerektirmeden doğrudan tarayıcıdan.",
+    "summary_en": "The 1999 racing classic Revolt is playable again — straight from the browser with no installation.",
+    "use_case_tr": "Hiçbir şey kurup yapılandırmadan hızlı retro yarış oturumları için.",
+    "use_case_en": "Quick retro racing sessions without installing or configuring anything."
+  },
+  {
+    "id": "DfKucA0ghij",
+    "name": "Read This and You'll Put Your Phone Down",
+    "repo": "instagram.com/alitekintr",
+    "url": "https://www.instagram.com/p/DfKucA0ghij/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "Fun & Finds",
+    "tags": [
+      "Reading",
+      "Mobile",
+      "Article"
+    ],
+    "summary_tr": "Okumaya değer bir yazıya yönlendiren kısa Türkçe tanıtım videosu; telefonu elinden bırakmanı sağlayacak bir içerik olarak sunuluyor.",
+    "summary_en": "A short Turkish teaser reel pointing to an article worth reading — framed as something that makes you put your phone down.",
+    "use_case_tr": "Düşündürücü bir şeyler okumak istediğinde uzun bir yazıya yönlendiren hızlı bir işaret.",
+    "use_case_en": "A quick pointer to a longer read when you want something thought-provoking."
+  },
+  {
+    "id": "DfIKeN-P4ox",
+    "name": "Sales CRM Dashboard",
+    "repo": "instagram.com/_code_and_chill_",
+    "url": "https://www.instagram.com/p/DfIKeN-P4ox/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "UI & Design",
+    "tags": [
+      "CRM",
+      "Data Visualization",
+      "Frontend",
+      "UI Design"
+    ],
+    "summary_tr": "Veri görselleştirme panelleriyle, güneşli bir satış CRM paneli konsepti; frontend ve UI tasarımı referansı olarak sunuluyor.",
+    "summary_en": "A sunny sales CRM dashboard concept with data-visualization panels, shown as a frontend and UI design reference.",
+    "use_case_tr": "Bir web panelinde satış metrikleri, grafikler ve tabloları yapılandırmak için referans.",
+    "use_case_en": "Reference for structuring sales metrics, charts and tables in a web dashboard."
+  },
+  {
+    "id": "DezbQvKCQGh",
+    "name": "Open Source Replacements for Paid Software",
+    "repo": "instagram.com/theopenstack",
+    "url": "https://www.instagram.com/p/DezbQvKCQGh/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "DevTools & MCP",
+    "tags": [
+      "Open Source",
+      "Free Software",
+      "Stirling PDF",
+      "Immich",
+      "RustDesk"
+    ],
+    "summary_tr": "Ücretli abonelikleri geride bırakan açık kaynak araçlar listesi: PDF'ler için Stirling PDF, fotoğraflar için Immich, uzak masaüstü için RustDesk, yapay zekâ ölçekleme için Upscayl; ayrıca LocalSend, Cobalt, LosslessCut, ShareX, CopyQ ve Sniffnet.",
+    "summary_en": "A list of open-source tools that beat paid subscriptions: Stirling PDF for PDFs, Immich for photos, RustDesk for remote desktop, Upscayl for AI upscaling, plus LocalSend, Cobalt, LosslessCut, ShareX, CopyQ and Sniffnet.",
+    "use_case_tr": "Aylık bir araç ödemeden önce, bu ücretsiz projelerden birinin ihtiyacını zaten karşılayıp karşılamadığını kontrol etmek için.",
+    "use_case_en": "Before paying for a monthly tool, check whether one of these free projects already covers your need."
+  },
+  {
+    "id": "DfDi4SJhgRu",
+    "name": "Claude × Ultimate Web Scraper",
+    "repo": "instagram.com/emma.scrapes",
+    "url": "https://www.instagram.com/p/DfDi4SJhgRu/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "Media & Scraping",
+    "tags": [
+      "Claude",
+      "Web Scraping",
+      "E-commerce",
+      "Automation"
+    ],
+    "summary_tr": "Ultimate Web Scraper'ı Claude'a bağlar; istediğin e-ticaret verisini düzgün biçimde tarif edersin, Claude fiyatları, stoğu, SKU'ları, müsaitliği, görselleri ve yorumları çeker ve panel bağlantısını geri gönderir.",
+    "summary_en": "Connect Ultimate Web Scraper to Claude so you describe the e-commerce data you want in plain language and Claude pulls prices, stock, SKUs, availability, images and reviews, then sends back a dashboard link.",
+    "use_case_tr": "Kazıyıcı kodunu elle yazmak istemediğin ürün araştırması veya fiyat takibi için.",
+    "use_case_en": "For product research or price monitoring where you want to skip writing scraper code by hand."
+  },
+  {
+    "id": "De_6WwaCSzR",
+    "name": "Desk — Unified Mouse, Clipboard & Calls",
+    "repo": "instagram.com/gittrend.io",
+    "url": "https://www.instagram.com/p/De_6WwaCSzR/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "DevTools & MCP",
+    "tags": [
+      "Open Source",
+      "Productivity",
+      "Android",
+      "Linux",
+      "Windows"
+    ],
+    "summary_tr": "Tek bir fare, tek bir pano ve telefon görüşmelerini bilgisayarında birleştiren açık kaynak araç; hesap veya bulut gerektirmez.",
+    "summary_en": "An open-source tool that unifies one mouse, one clipboard and your phone's calls on your computer — with no account and no cloud.",
+    "use_case_tr": "Verilerini bulut servisine emanet etmeden telefondan masaüstüne sorunsuz geçiş sağlamak için.",
+    "use_case_en": "For seamless phone-to-desktop control without handing your data to a cloud service."
+  },
+  {
+    "id": "DfAL_RIjIMN",
+    "name": "5 Practical Mac Utility Apps",
+    "repo": "instagram.com/hillsidernow",
+    "url": "https://www.instagram.com/p/DfAL_RIjIMN/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "DevTools & MCP",
+    "tags": [
+      "macOS",
+      "Productivity",
+      "Utilities",
+      "Clipboard"
+    ],
+    "summary_tr": "Beş küçük Mac aracı: cihaz pil durumu için AirBuddy 3, pano geçmişi için Pastebot 3, emoji ve sembol araması için Mojito, klavyeyi kilitlemek için Cats Lock ve önbellek ile büyük dosyaları bulmak için Mole.",
+    "summary_en": "Five small Mac utilities: AirBuddy 3 for device battery status, Pastebot 3 for clipboard history, Mojito for emoji and symbol search, Cats Lock to lock the keyboard, and Mole to find caches and large files.",
+    "use_case_tr": "macOS’taki küçük günlük sorunları çözmek için: kaybolan linkler, biten AirPods, istenmeyen evcil hayvan yazımı.",
+    "use_case_en": "Fix the small daily annoyances on macOS — lost links, dead AirPods, accidental pet typing."
+  },
+  {
+    "id": "De_70UnCtez",
+    "name": "7 Free Repos Claude Can Put to Work",
+    "repo": "instagram.com/sebastianhardy_",
+    "url": "https://www.instagram.com/p/De_70UnCtez/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "AI Agents",
+    "tags": [
+      "Claude",
+      "GitHub",
+      "Open Source",
+      "AI Tools"
+    ],
+    "summary_tr": "Claude’un kullanabileceği yedi ücretsiz GitHub deposunu listeleyen video; yerel donanımdan masaüstü otomasyonuna kadar güvenli kurulum önerileriyle.",
+    "summary_en": "A reel listing seven free GitHub repositories that Claude can drive — from local hardware to desktop automation — with safe installation guidance.",
+    "use_case_tr": "Yapay zekâ kodlama ajanıyla eşleştirebileceğin, kurulabilir pratik depolar arıyorsan faydalı.",
+    "use_case_en": "Useful if you want practical, installable repos to pair with an AI coding agent."
+  },
+  {
+    "id": "DeckSKKmR1g",
+    "name": "Single-Feature Android Apps Worth Keeping",
+    "repo": "instagram.com/technologybrief",
+    "url": "https://www.instagram.com/p/DeckSKKmR1g/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "Fun & Finds",
+    "tags": [
+      "Android",
+      "Apps",
+      "Productivity",
+      "Focus"
+    ],
+    "summary_tr": "Tek bir işe odaklanan küçük Android uygulamaları: MacroDroid otomasyonları, Forest odaklayıcısı, Snapdrop yerel dosya aktarımı, bildirim geçmişi kurtarma ve sosyal medyadan önce gecikme ekleyen one sec.",
+    "summary_en": "Small Android apps built around one job: MacroDroid automations, Forest focus timer, Snapdrop local file transfer, notification history recovery and one sec's delay before social media.",
+    "use_case_tr": "Telefonun çalışma şeklini değiştirmeden daha az sürtünme veya dikkat dağıtımı istediğinde birini seçmek için.",
+    "use_case_en": "Pick one when you want less friction or fewer distractions without changing how your phone works."
+  },
+  {
+    "id": "De6yRJZTglH",
+    "name": "Glassy Dashboard UI V2",
+    "repo": "instagram.com/code.xr",
+    "url": "https://www.instagram.com/p/De6yRJZTglH/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "UI & Design",
+    "tags": [
+      "React",
+      "Glassmorphism",
+      "Dashboard",
+      "UI Design"
+    ],
+    "summary_tr": "React, CSS ve JavaScript ile yapılmış; yarı saydam kartlar, satış analizi grafikleri ve beyaz-mavi temaya sahip cam efektli panel arayüzü.",
+    "summary_en": "A glassmorphism dashboard with translucent cards, sales analytics charts and a white-and-blue theme, built with React, CSS and JavaScript.",
+    "use_case_tr": "Yarı saydam kart yerleşimleri ve analiz ekranları için modern görsel referans.",
+    "use_case_en": "A modern visual reference for translucent card layouts and analytics screens."
+  },
+  {
+    "id": "DezxxYnlnjH",
+    "name": "10 Websites to Open When Bored",
+    "repo": "instagram.com/setupspawn",
+    "url": "https://www.instagram.com/p/DezxxYnlnjH/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "Fun & Finds",
+    "tags": [
+      "Websites",
+      "Games",
+      "Curiosity",
+      "Boredom"
+    ],
+    "summary_tr": "Sıkıldığında açılacak on web sitesi; oyunlar, tuhaf deneyler ve planladığın süreden çabuk yiyen rahatlatıcı tavşan delikleri.",
+    "summary_en": "Ten websites for bored moments — games, odd experiments and relaxing rabbit holes that easily eat more time than planned.",
+    "use_case_tr": "Boş on dakika için hazır liste; birini seç ve tavşan deliğinden aşağı in.",
+    "use_case_en": "A ready list for a spare ten minutes — pick one and go down the rabbit hole."
+  },
+  {
+    "id": "DeuPewWkimo",
+    "name": "7 Local AI Alternatives to Paid Services",
+    "repo": "instagram.com/onurhuseyinkocak.ai",
+    "url": "https://www.instagram.com/p/DeuPewWkimo/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "Local LLM",
+    "tags": [
+      "Local AI",
+      "Ollama",
+      "FLUX",
+      "Gemma",
+      "Open Source"
+    ],
+    "summary_tr": "Aylık ödeme yerine kendin çalıştırabileceğin yedi açık model: kod için Qwen2.5-Coder, sohbet için GPT-OSS 20B, video için Wan 2.1, görsel için FLUX.1 Schnell, seslendirme için Kokoro, müzik için ACE-Step 1.5 ve günlük görevler için Gemma 3.",
+    "summary_en": "Seven open models you can run yourself instead of paying monthly: Qwen2.5-Coder for code, GPT-OSS 20B for chat, Wan 2.1 for video, FLUX.1 Schnell for images, Kokoro for TTS, ACE-Step 1.5 for music and Gemma 3 for everyday tasks.",
+    "use_case_tr": "Oyun bilgisayarın varsa abonelikleri bırakıp verilerini kendi makineninde tutmak için.",
+    "use_case_en": "If you have a gaming PC, drop the subscriptions and keep your data on your own machine."
+  },
+  {
+    "id": "DeZXO6-lDBX",
+    "name": "5 Free Claude Code Design Skills",
+    "repo": "instagram.com/onurhuseyinkocak.ai",
+    "url": "https://www.instagram.com/p/DeZXO6-lDBX/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "DevTools & MCP",
+    "tags": [
+      "Claude Code",
+      "Web Design",
+      "Animation",
+      "Skills"
+    ],
+    "summary_tr": "Arayüzleri sıradan görünmekten kurtaran beş ücretsiz Claude Code skill’i: 3B sahneler için Three.js, kaydırma ve sayfa geçişleri için GSAP, bir sitenin tasarım dilini çıkarmak için Design DNA, Lottie/SVG için Motion Design ve daha güçlü görsel kimlik için Genjutsu.",
+    "summary_en": "Five free Claude Code skills that keep interfaces from looking generic: Three.js for 3D scenes, GSAP for scroll and page transitions, Design DNA for extracting a site’s design language, Motion Design for Lottie/SVG, and Genjutsu for stronger visual identity.",
+    "use_case_tr": "Claude Code’a açılış sayfası yaptırırken ekle; sonuç yapay zekâ varsayılanı gibi görünmesin.",
+    "use_case_en": "Add them before asking Claude Code to build a landing page so the result doesn't look AI-default."
+  },
+  {
+    "id": "DereLykmJAO",
+    "name": "AI & Tech News Roundup",
+    "repo": "instagram.com/getintoai",
+    "url": "https://www.instagram.com/p/DereLykmJAO/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "AI Agents",
+    "tags": [
+      "AI News",
+      "Tech",
+      "Gaming",
+      "Quantum"
+    ],
+    "summary_tr": "Yapay zekâ başlıklarının hızlı özeti: Claude destekli NPC’ler, üretilmiş dünyalar, Google’ın kuantum atılımı, yeni geliştirici araçları, Xbox yapay zekâ oyunları, otonom drone’lar ve Anthropic’in yardım planları.",
+    "summary_en": "A fast roundup of AI headlines: Claude-powered NPCs, AI-generated worlds, Google’s quantum breakthroughs, new developer tools, Xbox AI gaming, autonomous drones and Anthropic’s relief plans.",
+    "use_case_tr": "Haftanın yapay zekâ haberlerini kaçırdığında tek kaydırmayla gözden geçirmek için.",
+    "use_case_en": "A one-scroll catch-up when you missed the week's AI stories."
+  },
+  {
+    "id": "Deoj5t7D1Zt",
+    "name": "Curated AI GitHub Repos Reel",
+    "repo": "instagram.com/okaashish",
+    "url": "https://www.instagram.com/p/Deoj5t7D1Zt/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "AI Agents",
+    "tags": [
+      "GitHub",
+      "AI Tools",
+      "Open Source",
+      "Repositories"
+    ],
+    "summary_tr": "Seçilmiş yapay zekâ ve GitHub depolarını paylaşan kısa video; tam link listesi yorum yazanlara gönderiliyor.",
+    "summary_en": "A short reel sharing a curated set of AI and GitHub repositories — the full link list is sent to commenters.",
+    "use_case_tr": "GitHub'da kendin aramadan yeni yapay zekâ depoları keşfetmek istiyorsan hızlı bir keşif yolu.",
+    "use_case_en": "A quick discovery path if you want fresh AI repos without searching GitHub yourself."
+  },
+  {
+    "id": "DeLfIg2kW9g",
+    "name": "10 Open-Source AI Alternatives",
+    "repo": "instagram.com/college.guide.official",
+    "url": "https://www.instagram.com/p/DeLfIg2kW9g/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "AI Agents",
+    "tags": [
+      "AI Tools",
+      "RAG",
+      "Open Source",
+      "Students"
+    ],
+    "summary_tr": "LLM uygulama yapıları, yapay zekâ arama, RAG, görsel üretim ve çok modelli sohbeti kapsayan on GitHub deposu; öğrenciler ve geliştiriciler için pahalı yapay zekâ aboneliklerinin ücretsiz alternatifleri olarak sunuluyor.",
+    "summary_en": "Ten GitHub repos spanning LLM app builders, AI search, RAG, image generation and multi-model chat — framed as free alternatives to expensive AI subscriptions for students and developers.",
+    "use_case_tr": "Bütçesi olmadan geliştiren herkes için öğrenme ve deneme listesi.",
+    "use_case_en": "A study and experimentation shortlist for anyone building without a budget."
+  },
+  {
+    "id": "DePCHlKj4jV",
+    "name": "7 Repos to Replace AI Subscriptions",
+    "repo": "instagram.com/vct.turkiye",
+    "url": "https://www.instagram.com/p/DePCHlKj4jV/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "Local LLM",
+    "tags": [
+      "Ollama",
+      "Whisper",
+      "Fooocus",
+      "n8n",
+      "Open Source"
+    ],
+    "summary_tr": "Yapay zekâ aboneliklerini düşürmek için yedi GitHub projesi: yerel modeller için Ollama, metne döndürme için Whisper, görsel için Fooocus, tasarım için Penpot, otomasyon için n8n, notlar için AppFlowy ve analitik için Plausible.",
+    "summary_en": "Seven GitHub projects to cut AI subscriptions: Ollama for local models, Whisper for transcription, Fooocus for images, Penpot for design, n8n for automation, AppFlowy for notes and Plausible for analytics.",
+    "use_case_tr": "Bir sonraki aylık yapay zekâ araç yenilemesinden önce başlangıç paketi; kurulumun yine emek gerektirdiğini unutmadan.",
+    "use_case_en": "A starting pack before your next monthly AI tool renewal — with the caveat that setup still takes effort."
+  },
+  {
+    "id": "Dej-mRjkpy4",
+    "name": "Chinese AI Models vs the Big Names",
+    "repo": "instagram.com/onurhuseyinkocak.ai",
+    "url": "https://www.instagram.com/p/Dej-mRjkpy4/",
+    "stars": "Reel",
+    "tier": "B",
+    "category": "AI Agents",
+    "tags": [
+      "AI Models",
+      "DeepSeek",
+      "Qwen",
+      "Kimi",
+      "Multimodal"
+    ],
+    "summary_tr": "ChatGPT, Claude ve Gemini’ye rakip konumlanan dokuz Çin yapay zekâ aracı: Xiaomi MiMo, Dreamina, Qwen Studio, Ling 3.1 Flash, GLM 5.3 Flash, Kimi, DeepSeek, Ernie ve Doubao; farklı görevlere göre eşleştiriliyor.",
+    "summary_en": "Nine Chinese AI tools positioned against ChatGPT, Claude and Gemini — Xiaomi MiMo, Dreamina, Qwen Studio, Ling 3.1 Flash, GLM 5.3 Flash, Kimi, DeepSeek, Ernie and Doubao — matched to different tasks.",
+    "use_case_tr": "Marka yerine göreve göre seç: kodlama, araştırma, uzun doküman, görsel veya video.",
+    "use_case_en": "Pick by task rather than by brand: coding, research, long documents, images or video."
   }
 ]
