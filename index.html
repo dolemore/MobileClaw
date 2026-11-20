@@ -134,6 +134,62 @@
     .band .kicker { font-size: .9rem; font-weight: 500; color: var(--color-muted); margin-bottom: 14px; }
     .band .lead { margin-top: 14px; max-width: 62ch; color: var(--color-muted); }
 
+    /* ---------- story: scroll-matched cover ---------- */
+    .story { padding: 92px 0 72px; border-top: 1px solid var(--color-rule); }
+    .story__head { max-width: 780px; margin-bottom: 58px; }
+    .story__head h2 { font-size: clamp(2rem, 4vw, 3.05rem); max-width: 20ch; }
+    .story__head .lead { margin-top: 20px; font-size: 1.09rem; color: var(--color-ink-2); max-width: 62ch; }
+    .story__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .92fr); gap: 64px; align-items: start; }
+    .story__steps { list-style: none; }
+    .story__step {
+      position: relative; padding: 0 0 66px 28px; margin-left: 4px;
+      border-left: 1px solid var(--color-rule);
+    }
+    .story__step:last-child { padding-bottom: 0; }
+    .story__step::before {
+      content: ""; position: absolute; left: -5px; top: 7px;
+      width: 9px; height: 9px; border-radius: 50%;
+      background: var(--color-rule);
+      transition: background .3s ease, box-shadow .3s ease;
+    }
+    .story__step.is-on::before {
+      background: var(--color-accent);
+      box-shadow: 0 0 0 5px color-mix(in oklab, var(--color-accent) 18%, transparent);
+    }
+    .story__no {
+      display: block; margin-bottom: 12px;
+      font: 500 .78rem/1 var(--font-display); letter-spacing: .13em; text-transform: uppercase;
+      color: var(--color-muted);
+    }
+    .story__step h3 { font-size: clamp(1.35rem, 2.4vw, 1.72rem); color: var(--color-ink); }
+    .story__step p { margin-top: 14px; max-width: 58ch; color: var(--color-muted); font-size: .99rem; }
+    .story__step p.is-lead { color: var(--color-ink-2); }
+    .story__stage { position: sticky; top: 96px; }
+    .story__pane {
+      border-radius: var(--radius-card); overflow: hidden; padding: 12px;
+      background: var(--glass);
+      -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(1.35);
+      backdrop-filter: blur(var(--glass-blur)) saturate(1.35);
+      box-shadow: var(--glass-hi), var(--shadow-card);
+    }
+    .story__frame {
+      position: relative; aspect-ratio: 9 / 14; border-radius: var(--radius-inner);
+      overflow: hidden; background: var(--color-shade);
+      transition: aspect-ratio .35s ease;
+    }
+    .story__frame.is-wide { aspect-ratio: 16 / 10; }
+    .story__frame img {
+      position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top center;
+      opacity: 0; transform: scale(1.015); transition: opacity .5s ease, transform .5s ease;
+    }
+    .story__frame img.is-on { opacity: 1; transform: scale(1); }
+    .story__frame.is-wide img { object-position: center; }
+    .story__meta {
+      display: flex; justify-content: space-between; gap: 14px;
+      padding: 12px 4px 2px; font-size: .82rem; color: var(--color-muted);
+    }
+    .story__meta strong { color: var(--color-ink-2); font-weight: 500; }
+
     /* ---------- tour: ruled list beside one pane ---------- */
     .tour { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .9fr); gap: 48px; margin-top: 44px; align-items: start; }
     .tour__list { list-style: none; border-top: 1px solid var(--color-rule); }
@@ -235,6 +291,9 @@
     @media (max-width: 940px) {
       .hero__inner { grid-template-columns: 1fr; gap: 40px; }
       .hero__product { justify-self: start; width: min(260px, 72%); }
+      .story__grid { grid-template-columns: 1fr; gap: 34px; }
+      .story__step { padding-bottom: 56px; }
+      .story__stage { position: static; max-width: 420px; }
       .tour { grid-template-columns: 1fr; }
       .tour__pane { position: static; max-width: 420px; }
       .modes { grid-template-columns: 1fr; }
@@ -255,7 +314,7 @@
       html { scroll-behavior: auto; }
       .hero__photo { animation: none; }
       .tour__item.is-on .tour__dot { animation: none; }
-      .tour__frame img { transition: none; }
+      .tour__frame img, .story__frame, .story__frame img, .story__step::before { transition: none; }
     }
   </style>
 </head>
@@ -264,6 +323,7 @@
     <div class="bar">
       <a class="brand" href="/">🦀 MobileClaw</a>
       <nav class="nav">
+        <a class="nav-hide" href="#story">Story</a>
         <a class="nav-hide" href="#tour">Features</a>
         <a class="nav-hide" href="#family">Family modes</a>
         <a class="nav-hide" href="#architecture">Architecture</a>
@@ -313,6 +373,120 @@
         <div class="cell">
           <div class="fig">3</div>
           <div class="lbl">family modes: elder · kid · car</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="wrap">
+        <header class="story__head">
+          <p class="kicker">The long story</p>
+          <h2>Your phone has a brain it isn't using. MobileClaw wakes it up.</h2>
+          <p class="lead">
+            Your flagship has more memory than a laptop from a few years ago, and it spends its day showing icons. MobileClaw turns it into an assistant that knows you, runs AI on the phone itself and works for you even when it's in your pocket.
+          </p>
+        </header>
+        <div class="story__grid">
+          <ol class="story__steps" id="storySteps">
+            <li class="story__step is-on" data-cap="On-device models · optional cloud" data-alt="On-device AI model manager in MobileClaw">
+              <span class="story__no">01 · The core</span>
+              <h3>An AI that lives on your phone</h3>
+              <p class="is-lead">Gemma 4 and other models run right on the device: no internet, no account, and nothing leaves the phone.</p>
+              <p>Want more power? Add a cloud AI: sign in to OpenRouter, use your own key, or point it at your own server. MobileClaw picks the right model for each task.</p>
+            </li>
+            <li class="story__step" data-cap="Telegram · local API · MCP" data-alt="Telegram bridge settings in MobileClaw">
+              <span class="story__no">02 · Connections</span>
+              <h3>Reach it from anywhere</h3>
+              <p class="is-lead">Telegram bridge: message your phone from across the world. It answers, and it acts.</p>
+              <p>Drive it from outside: a private local API lets n8n, Home Assistant or your own scripts give it commands. A token made on the phone keeps it locked.</p>
+              <p>MCP: connect an MCP server and the assistant gains its tools on the spot. Tools that only read run freely; anything else asks you first.</p>
+              <p>Your computer's sidekick: the phone becomes a Bluetooth keyboard and trackpad, and sends files straight to your PC over Wi-Fi.</p>
+            </li>
+            <li class="story__step" data-cap="Automations in one sentence" data-alt="Plain-language automation builder in MobileClaw">
+              <span class="story__no">03 · On its own</span>
+              <h3>It works while you live</h3>
+              <p class="is-lead">Automations from one sentence: say “When I get to work, put the phone on silent” and it's set up.</p>
+              <p>Scheduled agent tasks: “Every morning at 8, summarize the news” arrives as a notification and on Telegram.</p>
+              <p>Ready-made agents and skills: starter skills, expert personas, or your own agents with their own instructions and model. They plan their own steps, and nothing outward happens without your “yes”.</p>
+              <p>Your files sort themselves: photos and documents are grouped by trip, place and date. You see the plan first, and one tap undoes it.</p>
+            </li>
+            <li class="story__step" data-cap="Memory that finds by meaning" data-alt="Proactive assistant and learning status in MobileClaw">
+              <span class="story__no">04 · Memory</span>
+              <h3>A second brain that remembers for you</h3>
+              <p class="is-lead">Notes it keeps and finds by meaning, not just by keyword, with an embedding model running on the phone.</p>
+              <p>It knows your normal, so it notices the day that isn't: “You're usually at work on Fridays. Today you're home. Is everything all right?”</p>
+              <p>Your morning in one sentence, the notifications that matter on top, and bills caught before they're due.</p>
+              <p>“What I know about you” deletes the evidence underneath, not just the label.</p>
+            </li>
+            <li class="story__step" data-cap="Glass panels · seven tones" data-alt="Petal picker for the floating home-screen panels">
+              <span class="story__no">05 · The surface</span>
+              <h3>A home screen you shape</h3>
+              <p class="is-lead">Two glass panels float on the home screen. Drag each one to any edge: left, right, top or bottom. At the top or bottom it turns into a slim bar.</p>
+              <p>Tap a panel and it opens into widgets: AI, notifications, calendar, apps, music and weather, with live search.</p>
+              <p>The second panel is a shortcut to the AI: chat, the phone's own model, the AI connection, the automation builder, the second brain and Telegram, one tap each.</p>
+              <p>Pick its color from seven glass tones, set how much it dims the wallpaper, and choose which widgets it shows. The same glass style can dress the lock screen.</p>
+            </li>
+            <li class="story__step" data-cap="Devices found on your Wi-Fi" data-alt="Smart-home devices discovered by MobileClaw">
+              <span class="story__no">06 · At home</span>
+              <h3>Your home, without the cloud</h3>
+              <p class="is-lead">It finds the smart devices on your Wi-Fi by itself: TVs, Roku, Xiaomi and Roborock, Kasa, Shelly, Tasmota.</p>
+              <p>It switches plugs, lights and shutters directly, runs a Valetudo robot vacuum and wakes your PC. If the phone has an IR blaster, it turns on the TV too.</p>
+              <p>For everything else it presses the buttons your other apps already offer, like a vacuum's “Start cleaning” or a plug's shortcut. It works with Home Assistant too.</p>
+            </li>
+            <li class="story__step" data-wide="1" data-cap="Cockpit · dashcam · cabin watch" data-alt="English car cockpit with navigation and dashcam controls">
+              <span class="story__no">07 · On the road</span>
+              <h3>Turn it sideways: it's a car</h3>
+              <p class="is-lead">A full-screen cockpit with its own map and spoken turn-by-turn directions. Search “pharmacy” and the nearest one comes first.</p>
+              <p>A dashcam that starts recording by itself above 15&nbsp;km/h and plays live in a corner of the screen. Clips stay on the phone.</p>
+              <p>A cabin watch, a road-roughness meter, big buttons for music and calls, and only the notifications worth a glance.</p>
+            </li>
+            <li class="story__step" data-cap="Alfred · Zello, one tap away" data-alt="App drawer with Alfred and other installed apps">
+              <span class="story__no">08 · Plug-ins</span>
+              <h3>Plug-ins, one tap away</h3>
+              <p class="is-lead">Alfred turns a phone into a home camera, and MobileClaw reads its alerts aloud.</p>
+              <p>Zello turns a phone into a walkie-talkie.</p>
+              <p>Both open straight from MobileClaw, and Alfred has its place on the family page.</p>
+            </li>
+            <li class="story__step" data-cap="The drawer phone's second job" data-alt="Kid mode with a robot friend in MobileClaw">
+              <span class="story__no">09 · Second life</span>
+              <h3>And the old phone in your drawer?</h3>
+              <p class="is-lead">It does everything above too, and then takes on a new job.</p>
+              <p>For an older person or someone with a disability: one big thing on screen at a time, never two decisions at once. A talking memory that answers “Did I take my pills?” without internet. Reminders that count down.</p>
+              <p>For a child: a day plan and play time. A robot friend whose every message is checked on the phone, both ways. A study coach that leads to the answer instead of giving it away. A reading coach that says “not heard”, never “wrong”.</p>
+              <p>For an old car: it becomes the car's screen and its dashcam. For the house: it becomes a smart-home remote, or an Alfred camera watching the door.</p>
+            </li>
+            <li class="story__step" data-cap="No developer server · bridges off" data-alt="Proactive assistant and privacy settings in MobileClaw">
+              <span class="story__no">10 · The promise</span>
+              <h3>Private by design</h3>
+              <p class="is-lead">There is no developer server.</p>
+              <p>Bridges stay off until you turn them on.</p>
+              <p>Nothing outward happens without your “yes”.</p>
+            </li>
+            <li class="story__step" data-wide="1" data-cap="Already awake · on Google Play" data-alt="Fog in a mountain valley at dusk">
+              <span class="story__no">11 · The wake-up</span>
+              <h3>Most AI lives in someone else's cloud.</h3>
+              <p class="is-lead">MobileClaw lives in your pocket, and it's already awake.</p>
+              <p>MobileClaw. On Google Play.</p>
+            </li>
+          </ol>
+          <aside class="story__stage">
+            <div class="story__pane">
+              <div class="story__frame" id="storyFrame">
+                <img class="is-on" src="assets/models.jpg" alt="On-device AI model manager in MobileClaw" />
+                <img src="assets/story-telegram.jpg" alt="Telegram bridge settings in MobileClaw" />
+                <img src="assets/automations.jpg" alt="Plain-language automation builder in MobileClaw" />
+                <img src="assets/story-brain.jpg" alt="Proactive assistant and learning status in MobileClaw" />
+                <img src="assets/story-panels.jpg" alt="Petal picker for the floating home-screen panels" />
+                <img src="assets/story-devices.jpg" alt="Smart-home devices discovered by MobileClaw" />
+                <img src="assets/story-car.jpg" alt="English car cockpit with navigation and dashcam controls" />
+                <img src="assets/story-plugins.jpg" alt="App drawer with Alfred and other installed apps" />
+                <img src="assets/story-oldphone.jpg" alt="Kid mode with a robot friend in MobileClaw" />
+                <img src="assets/story-privacy.jpg" alt="Proactive assistant and privacy settings in MobileClaw" />
+                <img src="assets/hero.jpg" alt="Fog in a mountain valley at dusk" />
+              </div>
+              <div class="story__meta"><strong id="storyCap">On-device models · optional cloud</strong><span class="num" id="storyIndex">01 / 11</span></div>
+            </div>
+          </aside>
         </div>
       </div>
     </section>
@@ -487,6 +661,43 @@
       }
       window.addEventListener('scroll', onScroll, { passive: true });
       onScroll();
+
+      var steps = Array.prototype.slice.call(document.querySelectorAll('#storySteps .story__step'));
+      var shotImgs = document.querySelectorAll('#storyFrame img');
+      var storyFrame = document.getElementById('storyFrame');
+      var storyCap = document.getElementById('storyCap');
+      var storyIndex = document.getElementById('storyIndex');
+      function showStep(step) {
+        var i = steps.indexOf(step);
+        if (i < 0) return;
+        steps.forEach(function (s, j) { s.classList.toggle('is-on', i === j); });
+        shotImgs.forEach(function (im, j) { im.classList.toggle('is-on', i === j); });
+        storyFrame.classList.toggle('is-wide', step.getAttribute('data-wide') === '1');
+        storyCap.textContent = step.getAttribute('data-cap') || '';
+        storyIndex.textContent = ('0' + (i + 1)).slice(-2) + ' / ' + ('0' + steps.length).slice(-2);
+      }
+      if (steps.length && 'IntersectionObserver' in window) {
+        var visibleSteps = [];
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            var i = steps.indexOf(e.target);
+            if (i < 0) return;
+            if (e.isIntersecting) {
+              if (visibleSteps.indexOf(i) < 0) visibleSteps.push(i);
+            } else {
+              var at = visibleSteps.indexOf(i);
+              if (at >= 0) visibleSteps.splice(at, 1);
+            }
+          });
+          if (!visibleSteps.length) return;
+          visibleSteps.sort(function (a, b) { return a - b; });
+          showStep(steps[visibleSteps[0]]);
+        }, { rootMargin: '-18% 0px -52% 0px', threshold: 0 });
+        steps.forEach(function (s) { observer.observe(s); });
+        showStep(steps[0]);
+      } else if (steps.length) {
+        showStep(steps[0]);
+      }
 
       var list = document.getElementById('tourList');
       var imgs = document.querySelectorAll('#tourFrame img');
